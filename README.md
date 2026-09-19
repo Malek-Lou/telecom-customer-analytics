@@ -21,6 +21,10 @@
 </div>
 
 ---
+### 🌐 [Try the Live Interactive Dashboard](https://YOUR-URL.streamlit.app)
+
+> The live application uses fully synthetic demonstration data.
+> No confidential company or customer data is included.
 
 ## 📌 Overview
 
