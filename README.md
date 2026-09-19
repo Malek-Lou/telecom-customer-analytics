@@ -321,6 +321,10 @@ The raw transactional records were cleaned and aggregated into customer-level an
 For confidentiality reasons, the repository focuses on the **analysis methodology and code**, while the original source data remains private.
 
 ---
+### 🌐 [Try the Live Interactive Dashboard](https://telecom-customer-analytics-nhqhedgcrzcppg9llwrpvw.streamlit.app)
+
+> The live application uses fully synthetic demonstration data.
+> No confidential company or customer data is included.
 
 # 🧠 Methodology
 
