@@ -1,0 +1,9 @@
+Feature,Importance,Modele
+Frequency_Par_Mois,0.23,XGBoost
+Monetary_Par_Mois,0.19,XGBoost
+Tenure_Months,0.16,XGBoost
+Frequency,0.14,XGBoost
+Monetary,0.11,XGBoost
+Life_Time,0.08,XGBoost
+Nb_Offers_Distinctes,0.05,XGBoost
+Montant_Moyen_Par_Achat,0.04,XGBoost

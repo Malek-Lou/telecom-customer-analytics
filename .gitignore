@@ -1,0 +1,40 @@
+# Private / generated data
+/data/*
+!/data/README.md
+/dashboard_data/*
+!/dashboard_data/.gitkeep
+*.parquet
+*.feather
+
+# Never commit local secrets or environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Data files: private by default
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Public synthetic demo files are allowed
+!demo_data/*.csv

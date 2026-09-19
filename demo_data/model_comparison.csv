@@ -1,0 +1,4 @@
+Modele,Accuracy,F1-score (classe 1),AUC-ROC,Temps GridSearchCV (s),Temps prédiction (ms),Temps prédiction (µs/client)
+Random Forest,0.82,0.74,0.86,12.8,8.4,8.4
+XGBoost,0.84,0.78,0.89,18.6,6.7,6.7
+LightGBM,0.83,0.76,0.88,10.4,5.9,5.9

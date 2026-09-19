@@ -1,0 +1,1001 @@
+msisdn_crypte,Recency,Frequency,Monetary,Tenure_Months,Nb_Offers_Distinctes,Main_Offer,R_score,F_score,M_score,RFM_Score,RFM_Total,RFM_Weighted,Segment,Segment_Avance,Valeur,Life_Time,Montant_Moyen_Par_Achat,Frequency_Par_Mois,Monetary_Par_Mois,Cluster_KMeans,Churned,Churn_Proba,PC1,PC2
+DEMO_00001,52,5,36.28,27.6,1,Demo Flex,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,25.7,7.26,0.181,1.32,1,0,0.1911,-0.1684,0.4245
+DEMO_00002,63,8,103.85,35.9,1,Demo Connect,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,33.9,12.98,0.223,2.89,1,1,0.3668,0.6551,0.8682
+DEMO_00003,33,8,173.99,24.6,3,Demo Plus,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,26.9,21.75,0.325,7.06,2,0,0.1691,1.8599,0.0158
+DEMO_00004,15,2,19.54,22.4,3,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,22.5,9.77,0.089,0.87,3,0,0.1162,-0.7638,0.2228
+DEMO_00005,16,6,81.17,38.7,1,Demo Plus,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,37.5,13.53,0.155,2.1,0,1,0.1562,1.0705,0.7263
+DEMO_00006,20,7,31.55,23.7,2,Demo Max,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Valeur moyenne,22.6,4.51,0.296,1.33,2,1,0.125,-0.1247,-0.5879
+DEMO_00007,4,2,22.83,30.5,3,Demo Plus,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,29.3,11.42,0.066,0.75,3,0,0.0802,-0.7016,0.3744
+DEMO_00008,38,9,86.86,28.7,2,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,27.7,9.65,0.314,3.03,1,0,0.2535,0.8473,-0.8242
+DEMO_00009,30,5,98.05,38.6,2,Demo Plus,2,3,5,235,10,3.8,Client moyen,Clients à risque,Forte valeur,36.1,19.61,0.129,2.54,3,0,0.2051,0.2049,1.2996
+DEMO_00010,22,2,14.82,20.0,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,19.5,7.41,0.1,0.74,3,1,0.2196,-1.8597,0.2686
+DEMO_00011,27,3,26.2,46.5,1,Demo Connect,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,45.8,8.73,0.065,0.56,3,0,0.0228,-0.8905,0.7788
+DEMO_00012,18,3,53.57,16.8,2,Demo Flex,4,1,3,413,8,2.6,Client moyen,Clients prometteurs,Valeur moyenne,15.3,17.86,0.178,3.19,3,0,0.1487,-0.0783,-0.0575
+DEMO_00013,72,3,28.45,31.7,1,Demo Plus,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,32.0,9.48,0.095,0.9,1,0,0.3564,-1.4844,1.0277
+DEMO_00014,6,11,59.62,29.5,1,Demo Flex,5,5,4,554,14,4.5,Champion,Champions,Valeur moyenne,29.9,5.42,0.373,2.02,2,0,0.0702,1.8376,0.0625
+DEMO_00015,4,4,162.34,15.8,1,Demo Max,5,2,5,525,12,4.1,Client moyen,Clients prometteurs,Forte valeur,14.7,40.58,0.253,10.28,0,0,0.1146,1.423,-0.7424
+DEMO_00016,49,4,22.04,33.3,1,Demo Flex,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,33.0,5.51,0.12,0.66,1,1,0.2292,-1.2283,-0.929
+DEMO_00017,27,5,48.13,21.0,1,Demo Plus,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,25.3,9.63,0.238,2.29,3,0,0.1807,-0.2371,-0.0058
+DEMO_00018,56,1,12.07,12.4,1,Demo Max,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,16.6,12.07,0.081,0.97,1,0,0.2858,-1.9271,-0.5859
+DEMO_00019,33,8,92.45,35.8,1,Demo Start,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,33.7,11.56,0.223,2.58,2,1,0.2338,0.9597,0.4839
+DEMO_00020,42,3,26.96,9.2,1,Demo Start,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,7.4,8.99,0.326,2.93,1,0,0.2904,-1.1527,-0.1027
+DEMO_00021,20,3,27.03,14.1,3,Demo Flex,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,11.9,9.01,0.214,1.92,3,0,0.1662,-0.6562,0.1942
+DEMO_00022,53,8,70.12,24.5,2,Demo Plus,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,26.6,8.77,0.327,2.87,1,0,0.2654,0.1419,0.4661
+DEMO_00023,12,7,37.79,38.5,1,Demo Start,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,37.7,5.4,0.182,0.98,2,0,0.1287,0.3098,0.9826
+DEMO_00024,31,6,195.27,34.5,1,Demo Start,2,3,5,235,10,3.8,Client moyen,Clients à risque,Forte valeur,35.0,32.54,0.174,5.66,2,0,0.196,1.1447,1.1285
+DEMO_00025,15,7,61.86,27.3,1,Demo Plus,4,4,4,444,12,4.0,Champion,Champions,Valeur moyenne,31.3,8.84,0.256,2.27,2,0,0.0916,0.7469,0.531
+DEMO_00026,33,2,27.7,7.0,2,Demo Flex,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,7.0,13.85,0.284,3.93,3,0,0.2763,-0.7435,0.1281
+DEMO_00027,77,4,33.19,16.3,2,Demo Plus,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Valeur moyenne,17.7,8.3,0.245,2.04,1,0,0.41,-1.1809,-0.3203
+DEMO_00028,22,6,49.24,18.8,2,Demo Flex,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,19.8,8.21,0.32,2.62,2,0,0.2518,0.9024,-0.9651
+DEMO_00029,20,3,23.29,12.0,2,Demo Connect,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,10.8,7.76,0.251,1.95,3,0,0.2085,-0.2939,0.714
+DEMO_00030,41,1,4.25,5.6,1,Demo Plus,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,7.7,4.25,0.179,0.76,1,0,0.2001,-2.0482,-0.4716
+DEMO_00031,18,7,63.92,25.2,1,Demo Flex,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,23.5,9.13,0.278,2.54,2,1,0.2543,0.9997,0.3665
+DEMO_00032,42,4,31.89,35.1,1,Demo Start,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Valeur moyenne,37.8,7.97,0.114,0.91,1,0,0.0765,-0.5059,0.3207
+DEMO_00033,28,3,56.99,17.8,1,Demo Plus,3,2,4,324,9,3.2,Client moyen,Clients à développer,Valeur moyenne,16.6,19.0,0.168,3.2,3,0,0.1965,-0.291,0.3004
+DEMO_00034,3,9,46.48,38.2,1,Demo Start,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,37.2,5.16,0.236,1.22,2,0,0.0472,1.4461,-0.8844
+DEMO_00035,4,2,14.52,8.4,2,Demo Start,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,6.2,7.26,0.239,1.73,3,0,0.2095,-1.1791,-0.6551
+DEMO_00036,7,4,24.34,11.5,1,Demo Start,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,9.6,6.09,0.349,2.13,3,0,0.1108,-0.7903,-0.5699
+DEMO_00037,7,8,176.41,24.9,2,Demo Start,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,24.0,22.05,0.322,7.09,0,0,0.0581,2.5603,-0.092
+DEMO_00038,26,3,18.55,16.8,1,Demo Flex,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,12.0,6.18,0.178,1.1,3,0,0.1366,-1.4489,0.3034
+DEMO_00039,5,7,95.12,33.4,1,Demo Max,5,4,5,545,14,4.7,Champion,Champions,Forte valeur,33.0,13.59,0.209,2.84,0,1,0.0528,1.548,-0.2983
+DEMO_00040,2,6,102.04,30.3,2,Demo Connect,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,29.2,17.01,0.198,3.37,0,1,0.0621,1.0286,0.4425
+DEMO_00041,14,3,27.61,17.6,1,Demo Max,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,19.2,9.2,0.17,1.57,3,0,0.1001,-0.0673,0.4102
+DEMO_00042,59,1,4.68,9.0,1,Demo Max,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,9.9,4.68,0.111,0.52,1,1,0.2645,-2.5524,0.7132
+DEMO_00043,21,1,4.71,16.3,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,14.9,4.71,0.061,0.29,3,0,0.1648,-2.0921,0.3124
+DEMO_00044,32,9,144.04,30.7,2,Demo Max,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,29.8,16.0,0.293,4.69,2,1,0.1553,1.9975,-0.3367
+DEMO_00045,56,5,24.93,34.2,1,Demo Plus,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,33.8,4.99,0.146,0.73,1,0,0.164,-1.0094,-0.1449
+DEMO_00046,7,5,61.87,16.9,3,Demo Connect,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Valeur moyenne,19.8,12.37,0.296,3.67,3,0,0.0459,1.4433,0.4492
+DEMO_00047,84,1,10.62,5.6,4,Demo Connect,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,3.9,10.62,0.179,1.91,1,0,0.5402,-2.6123,-0.1693
+DEMO_00048,8,1,12.27,8.0,2,Demo Start,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,6.6,12.27,0.125,1.53,3,0,0.1464,-1.6333,-0.3982
+DEMO_00049,16,5,64.64,29.2,1,Demo Max,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,27.0,12.93,0.171,2.21,3,0,0.1358,0.5547,-0.5323
+DEMO_00050,67,4,23.87,17.4,2,Demo Max,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,14.5,5.97,0.229,1.37,1,0,0.3892,-1.4687,-0.6683
+DEMO_00051,17,4,23.33,17.7,1,Demo Max,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,18.3,5.83,0.226,1.32,3,0,0.2132,-0.575,0.0477
+DEMO_00052,90,1,14.78,11.3,3,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,11.7,14.78,0.088,1.31,1,1,0.6341,-3.2939,-0.0768
+DEMO_00053,62,3,21.17,11.2,1,Demo Max,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,13.7,7.06,0.269,1.9,1,1,0.6173,-1.4482,-1.3162
+DEMO_00054,15,4,8.79,37.8,1,Demo Flex,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,39.9,2.2,0.106,0.23,3,0,0.2946,-1.7032,0.9762
+DEMO_00055,64,8,114.01,29.9,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,34.7,14.25,0.268,3.82,1,0,0.1424,-0.2882,-0.7762
+DEMO_00056,3,2,11.28,14.8,2,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,14.7,5.64,0.135,0.76,3,0,0.0371,-1.2486,0.4377
+DEMO_00057,21,7,90.27,23.8,3,Demo Start,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,23.2,12.9,0.294,3.8,0,0,0.1147,0.7769,-0.1589
+DEMO_00058,29,4,85.83,26.4,1,Demo Connect,2,2,4,224,8,3.0,Client à risque,Clients hibernants,Forte valeur,23.8,21.46,0.152,3.26,3,0,0.1739,0.0599,-0.0462
+DEMO_00059,16,7,70.47,56.3,1,Demo Start,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,57.7,10.07,0.124,1.25,0,0,0.0726,-0.1453,1.6965
+DEMO_00060,15,1,17.25,10.5,2,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,10.7,17.25,0.095,1.64,3,0,0.1802,-1.4883,-0.1153
+DEMO_00061,27,3,32.56,26.1,2,Demo Plus,3,2,2,322,7,2.2,Client moyen,Clients à développer,Valeur moyenne,27.4,10.85,0.115,1.25,3,0,0.1286,-0.6338,0.8474
+DEMO_00062,69,4,95.52,37.7,2,Demo Flex,1,2,5,125,8,3.3,Client à risque,Clients hibernants,Forte valeur,35.4,23.88,0.106,2.53,1,0,0.2373,-0.5241,0.7226
+DEMO_00063,78,11,61.17,52.6,1,Demo Flex,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Valeur moyenne,53.3,5.56,0.209,1.16,1,0,0.2389,0.4394,0.7463
+DEMO_00064,14,6,59.58,14.3,2,Demo Start,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,14.7,9.93,0.419,4.16,2,0,0.1006,1.1462,-0.718
+DEMO_00065,14,2,28.89,17.3,3,Demo Start,4,1,2,412,7,2.1,Client moyen,Clients prometteurs,Faible valeur,17.6,14.44,0.116,1.67,3,0,0.1656,-0.4076,0.0595
+DEMO_00066,40,4,35.93,33.6,1,Demo Flex,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Valeur moyenne,32.3,8.98,0.119,1.07,1,0,0.1444,-0.2171,1.2626
+DEMO_00067,40,3,56.39,7.0,1,Demo Plus,2,2,4,224,8,3.0,Client à risque,Clients hibernants,Valeur moyenne,9.3,18.8,0.432,8.11,1,0,0.1991,0.0249,-0.8609
+DEMO_00068,58,7,55.05,27.7,1,Demo Start,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,31.8,7.86,0.253,1.99,1,1,0.2942,-0.4115,0.2213
+DEMO_00069,59,11,342.42,68.0,1,Demo Connect,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,65.8,31.13,0.162,5.04,1,0,0.1592,2.2685,0.9972
+DEMO_00070,10,6,192.28,29.5,2,Demo Start,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,30.9,32.05,0.203,6.52,0,0,0.1356,2.0623,-0.8199
+DEMO_00071,5,1,11.65,3.3,1,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,1.0,11.65,0.3,3.49,3,0,0.0797,-1.4564,-0.511
+DEMO_00072,36,7,94.62,12.5,1,Demo Plus,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,13.8,13.52,0.56,7.57,1,0,0.1142,0.5224,-0.6064
+DEMO_00073,27,3,57.63,14.6,1,Demo Flex,3,2,4,324,9,3.2,Client moyen,Clients à développer,Valeur moyenne,10.9,19.21,0.205,3.94,3,0,0.1774,0.0803,-0.3291
+DEMO_00074,4,10,51.92,42.8,3,Demo Flex,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,41.8,5.19,0.234,1.21,2,0,0.0732,0.8693,-0.3433
+DEMO_00075,35,5,24.24,20.4,2,Demo Plus,2,3,2,232,7,2.3,Client moyen,Clients à risque,Faible valeur,17.7,4.85,0.246,1.19,3,0,0.1203,-1.0122,-0.076
+DEMO_00076,21,1,19.91,5.6,1,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,5.2,19.91,0.177,3.53,3,0,0.2619,-1.4114,-0.3778
+DEMO_00077,36,4,46.39,21.9,2,Demo Connect,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,23.5,11.6,0.183,2.12,3,1,0.3312,-0.1166,-0.4448
+DEMO_00078,8,6,52.84,24.7,1,Demo Flex,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,21.0,8.81,0.243,2.14,2,0,0.0659,0.7549,-0.721
+DEMO_00079,37,3,30.11,15.9,3,Demo Plus,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,15.2,10.04,0.188,1.89,1,0,0.3204,-0.47,-0.3329
+DEMO_00080,30,5,13.42,11.0,2,Demo Plus,2,3,1,231,6,1.8,Client moyen,Clients à risque,Faible valeur,10.0,2.68,0.454,1.22,3,0,0.0626,-1.3359,-0.3502
+DEMO_00081,40,18,161.67,72.0,1,Demo Connect,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,72.0,8.98,0.25,2.25,1,0,0.1534,2.6521,1.0764
+DEMO_00082,15,7,46.14,37.8,4,Demo Start,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,38.6,6.59,0.185,1.22,2,0,0.0618,0.7768,-0.0025
+DEMO_00083,12,4,66.1,39.8,1,Demo Start,4,2,4,424,10,3.4,Client moyen,Clients prometteurs,Forte valeur,37.4,16.53,0.101,1.66,3,0,0.1292,0.1725,0.8438
+DEMO_00084,5,3,51.72,20.4,2,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,19.4,17.24,0.147,2.54,3,0,0.061,0.0067,0.3848
+DEMO_00085,18,4,54.79,14.2,1,Demo Flex,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,17.3,13.7,0.282,3.87,3,0,0.1206,-0.4512,-0.9278
+DEMO_00086,50,7,86.78,16.5,2,Demo Start,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,17.9,12.4,0.425,5.26,1,0,0.1718,0.5624,-0.5607
+DEMO_00087,61,4,17.51,8.4,1,Demo Plus,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,6.5,4.38,0.479,2.1,1,0,0.2936,-1.0005,-0.0655
+DEMO_00088,7,9,124.22,55.7,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,55.2,13.8,0.162,2.23,0,0,0.1261,1.5384,0.4512
+DEMO_00089,22,6,84.6,20.9,1,Demo Start,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,20.5,14.1,0.287,4.04,2,1,0.1177,1.1636,0.2346
+DEMO_00090,70,3,59.35,48.6,4,Demo Plus,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Valeur moyenne,47.5,19.78,0.062,1.22,1,1,0.5106,-0.898,2.0147
+DEMO_00091,76,6,191.86,17.0,1,Demo Plus,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,13.6,31.98,0.352,11.27,1,0,0.3345,-0.1443,-0.5654
+DEMO_00092,17,3,11.8,29.8,2,Demo Start,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,28.4,3.93,0.101,0.4,3,0,0.1948,-1.5122,0.2635
+DEMO_00093,54,9,72.5,25.5,1,Demo Connect,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,28.3,8.06,0.352,2.84,1,0,0.1209,0.2438,0.0966
+DEMO_00094,47,2,13.26,7.7,3,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,6.9,6.63,0.26,1.73,1,0,0.2379,-1.9492,-0.5863
+DEMO_00095,44,4,43.87,59.8,1,Demo Flex,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,59.6,10.97,0.067,0.73,1,0,0.1238,-0.3417,0.6464
+DEMO_00096,4,5,50.24,17.4,1,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,17.7,10.05,0.288,2.89,3,0,0.1557,1.2001,-0.3953
+DEMO_00097,14,2,17.54,9.8,3,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,14.2,8.77,0.205,1.8,3,0,0.1361,-1.4861,-0.1952
+DEMO_00098,20,7,122.87,33.8,1,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,33.8,17.55,0.207,3.64,0,0,0.0428,1.1497,0.5431
+DEMO_00099,20,8,43.54,22.6,1,Demo Max,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,24.8,5.44,0.354,1.93,2,0,0.0643,0.3144,-0.8021
+DEMO_00100,22,10,56.26,28.1,3,Demo Plus,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Valeur moyenne,26.9,5.63,0.355,2.0,2,0,0.0707,0.6833,-0.4683
+DEMO_00101,82,4,22.71,24.1,1,Demo Start,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,23.5,5.68,0.166,0.94,1,1,0.5111,-1.7032,0.496
+DEMO_00102,18,4,32.72,3.7,1,Demo Connect,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Valeur moyenne,3.7,8.18,1.084,8.87,3,0,0.1836,-0.2245,-0.9108
+DEMO_00103,31,3,15.22,12.2,1,Demo Plus,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,10.6,5.07,0.246,1.25,3,0,0.1567,-1.8979,-1.0806
+DEMO_00104,30,8,77.69,11.8,2,Demo Connect,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,11.4,9.71,0.675,6.56,2,0,0.1244,0.9161,-0.3446
+DEMO_00105,22,10,91.06,39.4,3,Demo Start,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,41.2,9.11,0.254,2.31,2,0,0.1296,1.1024,0.0785
+DEMO_00106,8,7,45.3,23.1,2,Demo Start,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,21.5,6.47,0.303,1.96,2,0,0.0526,0.7234,0.2088
+DEMO_00107,25,8,129.03,30.8,2,Demo Max,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,30.8,16.13,0.259,4.18,2,0,0.1376,1.8849,-0.6527
+DEMO_00108,2,6,57.92,18.1,1,Demo Plus,5,4,4,544,13,4.2,Champion,Champions,Valeur moyenne,19.5,9.65,0.332,3.2,2,0,0.092,1.0276,-0.4711
+DEMO_00109,34,7,125.26,31.8,1,Demo Start,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,30.1,17.89,0.22,3.94,2,0,0.1277,1.1455,0.346
+DEMO_00110,2,5,44.8,20.4,1,Demo Start,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,22.6,8.96,0.245,2.19,3,0,0.0921,0.3126,-0.2494
+DEMO_00111,31,8,78.74,19.5,1,Demo Start,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,19.6,9.84,0.411,4.05,2,0,0.1534,0.9252,-1.0826
+DEMO_00112,13,5,36.59,25.4,1,Demo Flex,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,25.1,7.32,0.197,1.44,3,0,0.1193,0.3152,-1.053
+DEMO_00113,9,5,49.68,24.1,2,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,20.0,9.94,0.208,2.07,3,0,0.0515,0.6072,0.6432
+DEMO_00114,41,12,177.09,72.0,1,Demo Connect,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,71.3,14.76,0.167,2.46,1,0,0.1397,2.0252,1.5921
+DEMO_00115,16,3,23.86,12.1,1,Demo Start,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,12.8,7.95,0.248,1.97,3,0,0.1849,-0.5383,0.1278
+DEMO_00116,24,3,39.79,7.0,1,Demo Plus,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,10.5,13.26,0.428,5.68,3,0,0.1754,-0.8028,-0.2144
+DEMO_00117,4,1,6.38,27.8,1,Demo Plus,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,28.9,6.38,0.036,0.23,3,0,0.1167,-2.0031,0.7915
+DEMO_00118,64,3,45.43,13.4,1,Demo Max,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,15.6,15.14,0.224,3.4,1,0,0.3186,-0.7389,-0.4832
+DEMO_00119,26,1,7.25,3.3,1,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,1.0,7.25,0.306,2.22,3,0,0.2524,-1.7634,-0.3869
+DEMO_00120,25,3,47.8,10.1,1,Demo Flex,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,9.9,15.93,0.296,4.71,3,0,0.1617,-0.1928,0.1571
+DEMO_00121,34,15,154.72,72.0,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,72.0,10.31,0.208,2.15,2,0,0.0563,3.0825,1.222
+DEMO_00122,1,4,92.09,11.9,2,Demo Plus,5,2,5,525,12,4.1,Client moyen,Clients prometteurs,Forte valeur,10.1,23.02,0.337,7.76,0,0,0.1186,1.1285,0.3492
+DEMO_00123,68,1,5.29,5.2,3,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,7.1,5.29,0.194,1.02,1,0,0.2445,-3.1726,-1.1946
+DEMO_00124,17,8,35.43,72.0,2,Demo Start,4,5,2,452,11,3.3,Client fidèle,Champions,Valeur moyenne,72.0,4.43,0.111,0.49,2,0,0.0742,0.0812,1.1518
+DEMO_00125,66,5,35.54,9.8,2,Demo Max,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,10.4,7.11,0.508,3.61,1,0,0.2947,-0.3891,-0.2539
+DEMO_00126,16,13,60.55,72.0,3,Demo Plus,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,71.3,4.66,0.181,0.84,2,0,0.0501,2.0527,1.0134
+DEMO_00127,13,4,18.65,17.6,1,Demo Plus,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,15.6,4.66,0.228,1.06,3,0,0.1165,0.0277,0.676
+DEMO_00128,32,13,182.51,59.9,2,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,63.5,14.04,0.217,3.05,2,0,0.0741,3.1665,1.4263
+DEMO_00129,94,2,19.9,19.2,1,Demo Plus,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,20.4,9.95,0.104,1.04,1,0,0.5718,-2.8381,0.7424
+DEMO_00130,54,9,68.95,29.9,1,Demo Connect,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,30.5,7.66,0.301,2.31,1,0,0.219,0.0879,0.2293
+DEMO_00131,35,10,80.62,20.7,1,Demo Max,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,19.9,8.06,0.483,3.89,2,0,0.1216,0.1754,-1.1045
+DEMO_00132,32,3,21.54,19.3,1,Demo Connect,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,19.3,7.18,0.156,1.12,3,0,0.2701,-0.6794,-0.8129
+DEMO_00133,24,3,74.17,26.3,2,Demo Flex,3,2,4,324,9,3.2,Client moyen,Clients à développer,Forte valeur,26.7,24.72,0.114,2.82,3,0,0.1454,0.3887,0.9334
+DEMO_00134,63,3,19.97,30.5,1,Demo Plus,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,31.3,6.66,0.098,0.65,1,1,0.3526,-1.6179,-0.221
+DEMO_00135,42,7,33.74,25.1,2,Demo Max,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,26.6,4.82,0.279,1.34,1,0,0.2921,-0.5874,0.5213
+DEMO_00136,5,8,123.63,23.5,3,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,21.9,15.45,0.341,5.27,0,1,0.1366,1.7384,-0.0636
+DEMO_00137,9,6,53.15,13.4,1,Demo Flex,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,10.5,8.86,0.446,3.95,2,1,0.1224,0.7287,-0.665
+DEMO_00138,36,3,91.83,21.2,1,Demo Start,2,2,5,225,9,3.5,Client à risque,Clients hibernants,Forte valeur,21.4,30.61,0.141,4.32,3,1,0.1617,0.3925,0.2235
+DEMO_00139,7,6,44.81,55.6,1,Demo Connect,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,52.1,7.47,0.108,0.81,2,0,0.0344,0.6474,1.5228
+DEMO_00140,25,6,95.3,13.0,1,Demo Max,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,12.4,15.88,0.461,7.33,2,0,0.1535,1.0758,-0.7419
+DEMO_00141,44,6,108.52,26.8,4,Demo Max,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,25.8,18.09,0.224,4.04,1,0,0.2775,0.556,0.6287
+DEMO_00142,33,5,37.44,45.7,2,Demo Max,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,46.7,7.49,0.109,0.82,3,0,0.1473,0.1818,1.5849
+DEMO_00143,6,3,19.89,30.7,2,Demo Max,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,34.7,6.63,0.098,0.65,3,0,0.0193,-0.3612,0.5312
+DEMO_00144,10,5,74.98,39.7,1,Demo Max,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Forte valeur,35.8,15.0,0.126,1.89,0,0,0.1129,0.3607,0.4095
+DEMO_00145,33,1,13.68,9.7,2,Demo Max,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,14.3,13.68,0.103,1.41,3,1,0.2832,-1.2315,0.2781
+DEMO_00146,87,4,18.37,26.9,2,Demo Start,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,26.4,4.59,0.149,0.68,1,0,0.3961,-1.5638,-0.7238
+DEMO_00147,21,2,10.72,18.5,1,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,19.2,5.36,0.108,0.58,3,0,0.2017,-1.3531,0.1989
+DEMO_00148,45,5,12.36,19.1,1,Demo Plus,1,3,1,131,5,1.6,Client moyen,Clients à risque,Faible valeur,16.3,2.47,0.262,0.65,1,0,0.2623,-1.2669,0.0608
+DEMO_00149,33,11,152.22,52.8,1,Demo Max,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,54.8,13.84,0.208,2.88,2,0,0.0827,2.4999,0.3211
+DEMO_00150,13,6,51.82,19.3,1,Demo Max,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,19.4,8.64,0.311,2.69,2,0,0.1654,0.0006,0.077
+DEMO_00151,46,3,27.37,27.4,3,Demo Start,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,27.3,9.12,0.109,1.0,1,0,0.1311,-0.6297,0.2983
+DEMO_00152,4,2,7.87,5.2,2,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,1.3,3.93,0.387,1.52,3,0,0.1027,-1.5901,-0.8638
+DEMO_00153,43,9,49.07,59.9,1,Demo Plus,2,5,3,253,10,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,60.0,5.45,0.15,0.82,1,0,0.1262,0.831,1.6506
+DEMO_00154,34,6,46.01,38.3,3,Demo Max,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,40.0,7.67,0.157,1.2,2,1,0.1004,0.1115,0.0288
+DEMO_00155,14,2,13.78,21.8,1,Demo Flex,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,21.3,6.89,0.092,0.63,3,0,0.1296,-1.6191,0.5384
+DEMO_00156,8,4,42.57,18.0,1,Demo Max,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,20.3,10.64,0.222,2.37,3,0,0.161,-0.0068,-1.1156
+DEMO_00157,15,8,109.99,32.6,3,Demo Flex,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,34.9,13.75,0.245,3.37,0,0,0.1488,1.842,0.1857
+DEMO_00158,12,2,69.51,45.4,3,Demo Start,4,1,4,414,9,3.1,Client moyen,Clients prometteurs,Forte valeur,44.1,34.75,0.044,1.53,3,0,0.1185,0.1028,1.2591
+DEMO_00159,18,10,98.65,60.4,2,Demo Start,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,63.6,9.86,0.166,1.63,0,0,0.0357,1.4437,0.8978
+DEMO_00160,17,11,202.63,37.6,1,Demo Max,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,37.6,18.42,0.293,5.4,0,0,0.0489,2.2432,0.1646
+DEMO_00161,14,2,12.64,23.7,4,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,23.8,6.32,0.084,0.53,3,0,0.1207,-1.0273,0.2005
+DEMO_00162,4,4,15.88,41.1,2,Demo Start,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,41.3,3.97,0.097,0.39,3,0,0.0686,0.0659,1.3161
+DEMO_00163,7,9,73.96,36.6,2,Demo Start,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,36.7,8.22,0.246,2.02,0,0,0.0573,0.7209,0.3945
+DEMO_00164,51,5,20.71,23.7,1,Demo Plus,1,3,1,131,5,1.6,Client moyen,Clients à risque,Faible valeur,18.5,4.14,0.211,0.87,1,1,0.412,-0.0824,0.1469
+DEMO_00165,14,4,40.22,36.0,1,Demo Connect,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,35.6,10.06,0.111,1.12,3,0,0.0987,0.076,0.7368
+DEMO_00166,19,8,51.95,35.5,2,Demo Start,4,5,3,453,12,3.8,Client fidèle,Champions,Valeur moyenne,32.8,6.49,0.225,1.46,2,0,0.1194,0.9951,-0.0203
+DEMO_00167,16,5,17.02,21.7,3,Demo Plus,4,3,1,431,8,2.2,Client fidèle,Clients à risque,Faible valeur,24.9,3.4,0.231,0.79,3,0,0.1591,-0.7108,-0.2881
+DEMO_00168,64,5,129.57,15.7,2,Demo Connect,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,18.9,25.91,0.318,8.24,1,1,0.3184,0.2025,-0.3152
+DEMO_00169,12,5,37.11,33.7,1,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,35.4,7.42,0.148,1.1,3,0,0.2362,0.2216,0.324
+DEMO_00170,11,4,16.21,10.6,2,Demo Start,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,10.1,4.05,0.378,1.53,3,0,0.0744,-1.0345,-0.0659
+DEMO_00171,35,6,98.08,8.8,1,Demo Connect,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,6.8,16.35,0.679,11.09,2,1,0.1439,0.4067,-0.8012
+DEMO_00172,27,7,46.77,27.7,1,Demo Start,3,4,3,343,10,3.3,Client fidèle,Clients fidèles,Valeur moyenne,26.4,6.68,0.253,1.69,2,1,0.0869,0.7992,0.0977
+DEMO_00173,36,6,109.0,33.1,1,Demo Flex,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,37.0,18.17,0.181,3.29,2,1,0.2629,0.2198,-0.3536
+DEMO_00174,34,5,33.32,27.6,1,Demo Start,2,3,2,232,7,2.3,Client moyen,Clients à risque,Valeur moyenne,26.2,6.66,0.181,1.21,3,0,0.2082,-0.2,0.5441
+DEMO_00175,47,9,66.67,29.5,2,Demo Plus,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,24.8,7.41,0.305,2.26,1,1,0.1519,0.5109,-0.4476
+DEMO_00176,6,6,72.34,32.8,1,Demo Plus,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,34.8,12.06,0.183,2.21,0,0,0.0527,0.6401,-0.2076
+DEMO_00177,32,10,138.22,52.9,1,Demo Flex,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,55.9,13.82,0.189,2.61,2,0,0.1868,2.3709,1.5387
+DEMO_00178,11,9,136.99,38.0,3,Demo Start,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,41.3,15.22,0.237,3.61,0,0,0.089,1.5792,0.5185
+DEMO_00179,2,8,75.95,37.3,2,Demo Plus,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,39.3,9.49,0.215,2.04,0,1,0.1137,1.0215,0.7109
+DEMO_00180,34,3,40.02,26.4,1,Demo Flex,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,28.8,13.34,0.114,1.52,3,0,0.1615,-0.5943,0.4656
+DEMO_00181,32,4,60.12,27.0,1,Demo Start,2,2,4,224,8,3.0,Client à risque,Clients hibernants,Valeur moyenne,27.1,15.03,0.148,2.23,3,0,0.1865,-0.2684,0.1496
+DEMO_00182,23,5,55.69,20.5,2,Demo Connect,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Valeur moyenne,16.4,11.14,0.244,2.71,3,0,0.1442,0.2815,-0.3315
+DEMO_00183,47,4,36.89,28.9,1,Demo Plus,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,29.0,9.22,0.138,1.27,1,0,0.1656,-0.6284,0.6324
+DEMO_00184,11,3,13.51,10.2,1,Demo Start,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,11.4,4.5,0.295,1.33,3,0,0.1074,-0.8965,0.0237
+DEMO_00185,38,8,110.94,53.1,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,52.8,13.87,0.151,2.09,1,0,0.0797,1.0179,0.9712
+DEMO_00186,20,2,20.42,12.4,1,Demo Plus,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,12.0,10.21,0.161,1.65,3,0,0.1731,-1.2327,0.6483
+DEMO_00187,22,3,23.83,37.9,2,Demo Start,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,36.0,7.94,0.079,0.63,3,1,0.1528,-0.4974,0.7053
+DEMO_00188,3,9,181.27,49.1,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,47.1,20.14,0.183,3.69,0,0,0.0859,2.2617,0.0938
+DEMO_00189,48,7,31.84,37.8,1,Demo Max,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,41.5,4.55,0.185,0.84,1,0,0.2322,-0.4908,-0.3775
+DEMO_00190,31,15,369.54,72.0,1,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,72.0,24.64,0.208,5.13,2,0,0.0807,3.8681,0.4252
+DEMO_00191,37,1,9.85,3.9,1,Demo Plus,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,3.9,9.85,0.256,2.52,1,0,0.3784,-2.0843,-0.7643
+DEMO_00192,10,4,47.51,16.5,1,Demo Flex,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,17.0,11.88,0.243,2.89,3,1,0.1432,0.6152,-0.3992
+DEMO_00193,29,5,40.13,48.7,3,Demo Plus,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,46.7,8.03,0.103,0.82,3,0,0.1943,0.3292,1.4001
+DEMO_00194,20,1,3.99,8.6,1,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,9.8,3.99,0.117,0.47,3,0,0.2637,-1.9322,-0.376
+DEMO_00195,33,5,46.18,12.7,1,Demo Connect,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,16.2,9.24,0.394,3.64,3,0,0.1626,0.182,-0.1875
+DEMO_00196,28,8,95.92,31.5,1,Demo Start,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,28.5,11.99,0.254,3.04,2,0,0.1422,1.1367,0.0261
+DEMO_00197,73,1,14.47,23.5,2,Demo Max,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,24.4,14.47,0.043,0.62,1,0,0.4758,-2.4467,0.3323
+DEMO_00198,58,5,44.72,30.3,1,Demo Connect,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,31.4,8.94,0.165,1.48,1,0,0.1659,-0.6492,-0.0135
+DEMO_00199,18,2,5.97,24.8,3,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,25.9,2.99,0.081,0.24,3,0,0.0781,-2.6576,0.9285
+DEMO_00200,34,6,25.63,26.3,2,Demo Connect,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Faible valeur,29.6,4.27,0.228,0.97,2,0,0.0911,-0.1489,-0.7267
+DEMO_00201,17,5,154.17,13.6,1,Demo Plus,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,17.7,30.83,0.367,11.31,0,0,0.1141,1.3269,-0.3882
+DEMO_00202,46,3,16.41,25.8,2,Demo Max,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,25.3,5.47,0.116,0.64,1,0,0.1916,-1.1987,0.1518
+DEMO_00203,21,3,65.59,17.2,1,Demo Plus,3,2,4,324,9,3.2,Client moyen,Clients à développer,Forte valeur,18.6,21.86,0.174,3.8,3,0,0.0751,0.0827,0.1921
+DEMO_00204,15,5,29.84,18.9,3,Demo Start,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,19.1,5.97,0.265,1.58,3,0,0.1153,0.1453,-0.2899
+DEMO_00205,28,9,81.2,37.6,3,Demo Connect,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,36.3,9.02,0.239,2.16,2,0,0.1116,0.6663,0.1918
+DEMO_00206,55,2,28.13,8.2,1,Demo Plus,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,8.8,14.07,0.243,3.43,1,1,0.4234,-1.788,-0.5978
+DEMO_00207,49,1,6.35,2.6,2,Demo Connect,1,1,1,111,3,1.0,Client à risque,Nouveaux clients,Faible valeur,3.9,6.35,0.391,2.48,1,1,0.5085,-3.4608,-0.0132
+DEMO_00208,16,4,95.78,35.9,1,Demo Max,4,2,5,425,11,3.9,Client moyen,Clients prometteurs,Forte valeur,36.4,23.94,0.111,2.67,0,0,0.1173,0.6535,0.6052
+DEMO_00209,69,4,41.59,25.8,1,Demo Connect,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,24.0,10.4,0.155,1.61,1,0,0.2587,-1.2621,1.022
+DEMO_00210,10,11,141.37,49.1,2,Demo Connect,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,48.2,12.85,0.224,2.88,0,0,0.0863,1.9667,0.6449
+DEMO_00211,13,1,8.61,12.9,3,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,12.0,8.61,0.077,0.67,3,0,0.1306,-1.5836,-0.1511
+DEMO_00212,45,4,57.32,21.2,1,Demo Connect,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Valeur moyenne,19.5,14.33,0.188,2.7,1,0,0.1935,-0.4235,-0.14
+DEMO_00213,2,8,190.14,24.1,2,Demo Flex,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,24.7,23.77,0.332,7.9,0,0,0.0501,1.6843,-0.083
+DEMO_00214,24,1,9.28,14.8,2,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,15.7,9.28,0.067,0.63,3,0,0.1347,-0.9466,-0.3379
+DEMO_00215,18,5,129.12,11.8,1,Demo Max,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,13.7,25.82,0.425,10.99,0,0,0.1161,1.0565,-0.5447
+DEMO_00216,72,2,14.25,37.0,2,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,35.3,7.13,0.054,0.38,1,0,0.4182,-2.6207,0.8567
+DEMO_00217,8,3,45.55,7.6,2,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,6.4,15.18,0.396,6.01,3,1,0.1342,-0.1787,-0.4595
+DEMO_00218,9,2,26.11,10.3,2,Demo Plus,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,13.4,13.05,0.194,2.53,3,0,0.2269,-0.645,-0.2225
+DEMO_00219,79,2,11.08,20.7,4,Demo Plus,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,20.4,5.54,0.096,0.53,1,0,0.4884,-2.6289,0.2818
+DEMO_00220,18,5,56.09,39.7,1,Demo Start,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,39.8,11.22,0.126,1.41,3,0,0.1157,0.8253,0.723
+DEMO_00221,53,6,60.09,15.5,1,Demo Max,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,15.2,10.01,0.386,3.87,1,0,0.2253,-0.0948,0.1721
+DEMO_00222,16,1,6.24,14.2,1,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,16.4,6.24,0.071,0.44,3,0,0.09,-1.3387,0.0861
+DEMO_00223,13,5,60.72,19.9,1,Demo Max,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,22.3,12.14,0.251,3.05,3,0,0.0812,0.3873,0.9401
+DEMO_00224,55,4,43.24,28.6,1,Demo Connect,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,30.8,10.81,0.14,1.51,1,0,0.1922,-0.5548,0.2868
+DEMO_00225,92,5,47.92,17.9,3,Demo Connect,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,17.9,9.58,0.28,2.68,1,0,0.2233,-0.7834,0.1044
+DEMO_00226,58,4,38.42,42.8,1,Demo Connect,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,41.1,9.6,0.093,0.9,1,0,0.1626,-0.4401,0.5961
+DEMO_00227,15,9,85.43,43.9,2,Demo Max,4,5,4,454,13,4.3,Champion,Champions,Forte valeur,47.8,9.49,0.205,1.94,0,0,0.1519,1.8995,1.1109
+DEMO_00228,23,5,40.74,20.7,1,Demo Start,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,22.5,8.15,0.241,1.96,3,0,0.1477,-0.0745,-0.5119
+DEMO_00229,10,14,150.8,66.6,1,Demo Connect,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,65.6,10.77,0.21,2.27,0,0,0.0456,2.8344,1.2371
+DEMO_00230,11,2,14.0,23.7,2,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,26.6,7.0,0.084,0.59,3,0,0.125,-1.9926,0.1193
+DEMO_00231,11,12,516.02,43.0,2,Demo Start,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,42.0,43.0,0.279,11.99,0,0,0.0304,3.4536,0.347
+DEMO_00232,16,3,13.78,28.1,1,Demo Plus,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,30.9,4.59,0.107,0.49,3,0,0.1227,-0.68,0.234
+DEMO_00233,26,4,28.92,27.7,3,Demo Max,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,30.7,7.23,0.144,1.04,3,0,0.2137,-0.1685,-0.1294
+DEMO_00234,24,1,7.55,6.2,1,Demo Flex,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,4.3,7.55,0.162,1.22,3,1,0.1651,-2.0217,-0.5958
+DEMO_00235,40,6,183.83,9.7,1,Demo Start,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,10.8,30.64,0.621,19.03,1,0,0.1018,1.7106,-0.1116
+DEMO_00236,27,3,14.48,18.5,1,Demo Flex,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,20.1,4.83,0.162,0.78,3,0,0.1294,-1.3591,0.1102
+DEMO_00237,37,6,75.64,43.7,2,Demo Start,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,49.0,12.61,0.137,1.73,1,0,0.2283,0.1732,0.1871
+DEMO_00238,42,7,80.04,28.3,1,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,26.8,11.43,0.247,2.83,1,1,0.1932,0.3874,0.45
+DEMO_00239,15,7,83.88,18.6,3,Demo Plus,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,21.5,11.98,0.375,4.5,0,0,0.0583,0.699,-0.8903
+DEMO_00240,21,3,59.06,33.3,1,Demo Plus,3,2,4,324,9,3.2,Client moyen,Clients à développer,Valeur moyenne,33.4,19.69,0.09,1.77,3,0,0.2749,0.2609,0.9172
+DEMO_00241,150,4,77.87,42.8,1,Demo Flex,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Forte valeur,40.3,19.47,0.094,1.82,1,1,0.6535,-1.8908,1.1682
+DEMO_00242,14,8,62.27,22.8,3,Demo Start,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,22.5,7.78,0.351,2.74,2,0,0.0876,1.242,-0.1205
+DEMO_00243,39,5,55.49,26.2,1,Demo Start,2,3,4,234,9,3.3,Client moyen,Clients à risque,Valeur moyenne,26.2,11.1,0.191,2.12,1,0,0.1174,-0.1735,0.8903
+DEMO_00244,7,3,10.73,24.1,1,Demo Start,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,22.0,3.58,0.125,0.45,3,0,0.0588,-1.0957,-0.2173
+DEMO_00245,43,7,73.73,21.8,1,Demo Flex,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,22.4,10.53,0.321,3.38,1,1,0.1596,-0.2964,-0.0678
+DEMO_00246,12,4,25.78,12.8,1,Demo Connect,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,14.8,6.45,0.312,2.01,3,0,0.1417,-0.1858,0.1054
+DEMO_00247,24,10,90.02,12.1,1,Demo Max,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,12.6,9.0,0.826,7.43,2,0,0.2114,1.5088,-1.3762
+DEMO_00248,22,4,15.79,33.2,1,Demo Max,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,32.1,3.95,0.121,0.48,3,0,0.0999,-1.2899,0.1425
+DEMO_00249,23,10,124.62,43.2,2,Demo Connect,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,42.9,12.46,0.231,2.88,2,0,0.0627,1.7393,0.2212
+DEMO_00250,20,10,39.23,18.6,1,Demo Plus,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,18.6,3.92,0.537,2.11,2,0,0.1345,0.7764,-0.6399
+DEMO_00251,33,8,86.57,18.3,1,Demo Start,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,18.8,10.82,0.436,4.72,2,0,0.1865,1.569,-1.2372
+DEMO_00252,52,3,15.24,4.8,2,Demo Max,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,7.0,5.08,0.63,3.2,1,0,0.3051,-2.025,-0.4875
+DEMO_00253,9,2,12.5,4.0,1,Demo Plus,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,4.5,6.25,0.505,3.15,3,0,0.1346,-1.0569,-1.3077
+DEMO_00254,20,3,56.47,50.0,2,Demo Plus,3,2,4,324,9,3.2,Client moyen,Clients à développer,Valeur moyenne,47.2,18.82,0.06,1.13,3,0,0.0946,-0.3717,1.9356
+DEMO_00255,3,4,55.13,13.5,2,Demo Plus,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,12.3,13.78,0.297,4.09,3,0,0.0926,0.2811,-0.2013
+DEMO_00256,27,9,168.9,72.0,1,Demo Plus,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,72.0,18.77,0.125,2.35,2,0,0.0759,1.8891,2.6372
+DEMO_00257,9,4,94.08,15.2,1,Demo Plus,5,2,5,525,12,4.1,Client moyen,Clients prometteurs,Forte valeur,17.5,23.52,0.262,6.17,0,0,0.1517,0.7456,-0.0496
+DEMO_00258,23,2,13.04,6.4,1,Demo Plus,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,8.9,6.52,0.315,2.05,3,1,0.3455,-1.4066,-0.7009
+DEMO_00259,28,9,204.72,24.2,1,Demo Start,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,27.7,22.75,0.372,8.46,2,0,0.1375,2.0544,-0.7896
+DEMO_00260,4,12,53.46,36.8,1,Demo Connect,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,37.0,4.45,0.326,1.45,2,0,0.0627,1.5782,-0.0378
+DEMO_00261,31,7,105.24,34.3,2,Demo Flex,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,35.8,15.03,0.204,3.07,2,0,0.1446,1.297,0.2193
+DEMO_00262,50,13,98.85,39.0,2,Demo Start,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,36.1,7.6,0.333,2.53,1,0,0.1383,1.4519,0.3946
+DEMO_00263,36,3,17.94,11.0,1,Demo Start,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,11.8,5.98,0.273,1.63,1,1,0.2586,-1.2661,-0.8669
+DEMO_00264,10,7,97.89,49.3,3,Demo Start,5,4,5,545,14,4.7,Champion,Champions,Forte valeur,47.2,13.98,0.142,1.99,0,0,0.0831,1.4547,1.8356
+DEMO_00265,22,6,100.63,51.1,1,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,50.9,16.77,0.118,1.97,2,1,0.0792,1.0285,1.6788
+DEMO_00266,24,12,198.01,52.4,3,Demo Start,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,58.4,16.5,0.229,3.78,2,0,0.1276,2.6897,0.4836
+DEMO_00267,21,6,67.35,26.8,2,Demo Start,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,27.4,11.23,0.224,2.51,2,0,0.1136,0.7545,0.7939
+DEMO_00268,6,3,32.17,17.6,1,Demo Flex,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Valeur moyenne,15.9,10.72,0.17,1.82,3,0,0.0637,-0.0256,-0.4935
+DEMO_00269,11,4,53.31,16.6,1,Demo Flex,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,17.4,13.33,0.242,3.22,3,1,0.12,0.1851,-0.1971
+DEMO_00270,19,2,23.58,6.3,1,Demo Flex,4,1,2,412,7,2.1,Client moyen,Clients prometteurs,Faible valeur,5.3,11.79,0.316,3.73,3,0,0.1616,-1.2245,-1.1396
+DEMO_00271,27,5,67.17,15.5,3,Demo Max,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,13.6,13.43,0.323,4.34,3,0,0.211,-0.1473,0.393
+DEMO_00272,14,1,11.16,2.4,1,Demo Flex,4,1,1,411,6,1.6,Client moyen,Nouveaux clients,Faible valeur,6.6,11.16,0.425,4.74,3,1,0.1975,-2.0996,-1.3911
+DEMO_00273,3,1,15.86,5.6,3,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,7.7,15.86,0.179,2.84,3,0,0.104,-0.4082,-1.1491
+DEMO_00274,15,3,12.23,26.6,1,Demo Connect,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,27.3,4.08,0.113,0.46,3,0,0.0888,-1.9045,-0.0132
+DEMO_00275,73,1,9.28,19.1,1,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,18.3,9.28,0.052,0.49,1,1,0.4008,-2.3505,0.7166
+DEMO_00276,31,6,27.96,25.9,2,Demo Flex,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Faible valeur,25.2,4.66,0.232,1.08,2,0,0.1655,-0.5663,0.3724
+DEMO_00277,27,8,92.91,35.1,1,Demo Flex,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,38.1,11.61,0.228,2.65,2,0,0.1402,1.5431,0.2248
+DEMO_00278,11,4,98.43,29.0,1,Demo Max,4,2,5,425,11,3.9,Client moyen,Clients prometteurs,Forte valeur,29.6,24.61,0.138,3.4,0,0,0.1049,0.0425,0.7417
+DEMO_00279,15,3,23.05,27.4,3,Demo Start,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,21.3,7.68,0.109,0.84,3,0,0.1045,-0.7183,0.2586
+DEMO_00280,2,4,42.79,21.4,1,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,26.2,10.7,0.187,2.0,3,0,0.1217,0.7891,0.1229
+DEMO_00281,10,3,45.36,13.1,3,Demo Plus,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,13.5,15.12,0.229,3.46,3,0,0.0828,0.2669,0.3929
+DEMO_00282,30,2,6.4,8.6,4,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,9.3,3.2,0.232,0.74,3,0,0.406,-2.1858,-0.5701
+DEMO_00283,27,1,7.48,15.8,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,18.0,7.48,0.063,0.47,3,0,0.2252,-2.7383,-0.3749
+DEMO_00284,13,4,48.75,21.6,1,Demo Start,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,22.5,12.19,0.185,2.26,3,0,0.0652,-0.2709,0.1554
+DEMO_00285,21,6,12.16,23.4,1,Demo Plus,3,4,1,341,8,2.3,Client fidèle,Clients fidèles,Faible valeur,24.9,2.03,0.256,0.52,2,0,0.1249,-0.2628,0.164
+DEMO_00286,24,20,116.57,39.1,2,Demo Connect,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,38.3,5.83,0.512,2.98,2,0,0.1249,3.2249,-0.7773
+DEMO_00287,14,6,109.64,20.3,4,Demo Plus,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,17.9,18.27,0.295,5.39,0,0,0.0878,1.1591,0.1394
+DEMO_00288,32,4,69.27,32.0,3,Demo Plus,2,2,4,224,8,3.0,Client à risque,Clients hibernants,Forte valeur,32.5,17.32,0.125,2.17,3,1,0.0815,0.215,0.3308
+DEMO_00289,26,3,36.76,7.1,3,Demo Plus,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,10.0,12.25,0.422,5.17,3,0,0.1103,-0.9159,-0.5701
+DEMO_00290,16,3,48.61,26.8,1,Demo Plus,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,25.5,16.2,0.112,1.81,3,0,0.1365,0.109,0.4522
+DEMO_00291,7,6,67.36,25.6,1,Demo Flex,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,24.2,11.23,0.234,2.63,2,1,0.039,0.7588,0.0618
+DEMO_00292,15,6,81.23,49.3,1,Demo Max,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,51.8,13.54,0.122,1.65,0,0,0.0436,1.0085,1.7513
+DEMO_00293,14,10,83.85,19.1,3,Demo Start,4,5,4,454,13,4.3,Champion,Champions,Forte valeur,18.2,8.38,0.524,4.4,0,0,0.1202,1.4039,-0.599
+DEMO_00294,13,5,53.15,18.5,1,Demo Max,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,17.7,10.63,0.27,2.87,3,0,0.0948,-0.1222,-0.4344
+DEMO_00295,4,7,49.31,35.2,1,Demo Start,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,34.5,7.04,0.199,1.4,2,0,0.0516,0.7087,0.513
+DEMO_00296,60,1,19.98,9.2,1,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,9.0,19.98,0.109,2.18,1,0,0.2951,-1.6925,0.1188
+DEMO_00297,58,6,138.19,26.4,1,Demo Connect,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,23.3,23.03,0.227,5.23,1,0,0.1482,0.6814,0.3156
+DEMO_00298,20,1,21.31,8.8,1,Demo Connect,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,7.7,21.31,0.114,2.42,3,1,0.1872,-1.1024,-0.0289
+DEMO_00299,27,4,31.88,62.6,1,Demo Start,3,2,2,322,7,2.2,Client moyen,Clients à développer,Valeur moyenne,63.1,7.97,0.064,0.51,3,0,0.072,-0.1123,1.1627
+DEMO_00300,32,6,35.42,16.9,3,Demo Flex,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,17.3,5.9,0.356,2.1,2,0,0.1293,-0.1745,-1.5945
+DEMO_00301,20,1,20.13,8.3,2,Demo Flex,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,10.6,20.13,0.12,2.42,3,0,0.1797,-1.1442,0.2002
+DEMO_00302,29,6,80.71,15.7,1,Demo Connect,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,19.4,13.45,0.382,5.14,2,0,0.135,0.4753,-0.3293
+DEMO_00303,36,4,47.8,26.5,2,Demo Plus,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,29.5,11.95,0.151,1.8,3,1,0.1266,0.0843,0.1595
+DEMO_00304,26,8,56.31,31.3,1,Demo Plus,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Valeur moyenne,33.2,7.04,0.255,1.8,2,0,0.0514,0.8311,0.3108
+DEMO_00305,40,11,138.66,47.8,2,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,47.5,12.61,0.23,2.9,1,0,0.1563,1.5046,1.3283
+DEMO_00306,12,3,16.47,14.4,1,Demo Start,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,13.1,5.49,0.209,1.15,3,0,0.117,-1.3704,0.3438
+DEMO_00307,22,7,98.95,36.2,2,Demo Max,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,36.2,14.14,0.193,2.73,2,0,0.0854,1.4863,0.7541
+DEMO_00308,123,1,21.29,5.6,1,Demo Plus,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,6.8,21.29,0.179,3.81,1,1,0.6362,-3.3079,-0.8997
+DEMO_00309,47,5,122.3,10.4,1,Demo Plus,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,12.0,24.46,0.481,11.77,1,0,0.2367,0.5013,-1.0138
+DEMO_00310,26,3,44.18,7.3,2,Demo Flex,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,8.5,14.73,0.412,6.07,3,1,0.1957,0.5209,-1.6934
+DEMO_00311,9,1,4.66,12.6,2,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,12.3,4.66,0.08,0.37,3,0,0.1238,-1.7916,0.1066
+DEMO_00312,23,2,22.24,35.2,2,Demo Connect,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,36.8,11.12,0.057,0.63,3,0,0.2314,-0.4095,1.2668
+DEMO_00313,45,1,32.36,14.6,1,Demo Flex,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Valeur moyenne,17.1,32.36,0.068,2.21,1,0,0.3156,-1.4326,0.4522
+DEMO_00314,39,6,37.12,16.7,1,Demo Connect,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,18.4,6.19,0.36,2.23,1,0,0.1761,0.1879,-0.1785
+DEMO_00315,3,9,86.89,27.0,2,Demo Flex,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,26.9,9.65,0.334,3.22,0,0,0.0952,1.6893,-0.372
+DEMO_00316,4,4,86.81,30.5,1,Demo Start,5,2,4,524,11,3.6,Client moyen,Clients prometteurs,Forte valeur,28.9,21.7,0.131,2.84,0,0,0.0798,0.9607,0.101
+DEMO_00317,32,9,126.05,17.0,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,15.3,14.01,0.529,7.41,2,0,0.1547,2.1463,-1.1331
+DEMO_00318,5,4,156.08,10.3,1,Demo Connect,5,2,5,525,12,4.1,Client moyen,Clients prometteurs,Forte valeur,9.0,39.02,0.387,15.11,0,0,0.158,1.2208,-0.6507
+DEMO_00319,9,12,79.98,56.6,1,Demo Start,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,57.1,6.67,0.212,1.41,0,0,0.0401,1.9992,0.3296
+DEMO_00320,20,4,23.15,17.1,1,Demo Plus,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,18.1,5.79,0.234,1.35,3,0,0.1275,-0.8628,0.5252
+DEMO_00321,51,5,97.78,18.3,1,Demo Max,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,15.5,19.56,0.273,5.34,1,0,0.3461,0.5387,-0.8938
+DEMO_00322,34,2,10.33,19.9,2,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,18.9,5.17,0.1,0.52,3,0,0.2021,-1.9733,-0.0258
+DEMO_00323,18,4,35.8,32.6,2,Demo Start,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Valeur moyenne,33.0,8.95,0.123,1.1,3,0,0.0907,0.204,-0.4225
+DEMO_00324,41,6,57.72,6.8,2,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,5.0,9.62,0.884,8.5,1,0,0.1095,-0.4481,-0.8044
+DEMO_00325,88,18,317.4,69.7,2,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,70.6,17.63,0.258,4.55,1,1,0.1275,2.8384,0.7836
+DEMO_00326,23,3,41.95,18.0,1,Demo Flex,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,17.3,13.98,0.167,2.34,3,1,0.2942,-0.518,-0.2872
+DEMO_00327,6,4,51.3,33.2,3,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,31.8,12.82,0.12,1.54,3,0,0.0907,0.6141,0.0608
+DEMO_00328,9,3,23.98,8.4,2,Demo Plus,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,8.5,7.99,0.357,2.85,3,0,0.0877,-0.4918,-0.5661
+DEMO_00329,9,3,58.37,25.2,1,Demo Start,5,2,4,524,11,3.6,Client moyen,Clients prometteurs,Valeur moyenne,26.0,19.46,0.119,2.31,3,0,0.1098,0.0592,-0.0358
+DEMO_00330,11,7,639.13,63.4,1,Demo Max,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,61.7,91.3,0.11,10.08,0,0,0.0423,2.7383,1.5159
+DEMO_00331,17,8,116.7,58.2,2,Demo Start,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,57.7,14.59,0.137,2.01,0,1,0.0647,1.2086,2.1184
+DEMO_00332,28,2,21.07,32.7,2,Demo Start,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,33.6,10.54,0.061,0.64,3,0,0.0986,-0.8127,0.7303
+DEMO_00333,5,2,9.77,11.9,2,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,10.4,4.89,0.168,0.82,3,0,0.057,-1.6543,-0.0661
+DEMO_00334,6,8,56.19,46.3,2,Demo Start,5,5,4,554,14,4.5,Champion,Champions,Valeur moyenne,42.9,7.02,0.173,1.21,2,0,0.0262,0.9949,0.4778
+DEMO_00335,35,2,17.74,5.5,3,Demo Flex,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,2.5,8.87,0.361,3.2,3,0,0.1148,-1.2633,-0.954
+DEMO_00336,14,2,14.87,11.6,3,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,10.8,7.43,0.172,1.28,3,0,0.1861,-0.5625,-0.3312
+DEMO_00337,10,4,39.55,21.5,2,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,18.8,9.89,0.186,1.84,3,0,0.0649,0.0664,1.0632
+DEMO_00338,18,2,53.04,6.0,4,Demo Plus,4,1,3,413,8,2.6,Client moyen,Clients prometteurs,Valeur moyenne,5.3,26.52,0.333,8.83,3,0,0.178,-0.2544,-0.709
+DEMO_00339,57,9,178.25,15.7,3,Demo Connect,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,19.0,19.81,0.574,11.37,1,0,0.3462,1.365,-0.6611
+DEMO_00340,39,8,73.12,36.7,1,Demo Plus,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,33.9,9.14,0.218,1.99,1,0,0.1521,-0.0305,-0.1294
+DEMO_00341,37,4,20.53,13.5,2,Demo Plus,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,13.0,5.13,0.296,1.52,1,1,0.1708,-1.3902,-1.6696
+DEMO_00342,71,10,208.12,37.7,1,Demo Max,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,42.0,20.81,0.265,5.52,1,0,0.2953,1.1631,-0.26
+DEMO_00343,29,19,184.46,72.0,1,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,72.0,9.71,0.264,2.56,2,0,0.0651,3.2185,1.8616
+DEMO_00344,76,7,27.01,29.0,1,Demo Flex,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Faible valeur,28.3,3.86,0.241,0.93,1,1,0.468,-1.5443,0.2575
+DEMO_00345,80,7,103.31,37.3,1,Demo Connect,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,37.0,14.76,0.188,2.77,1,0,0.5502,0.3485,1.1112
+DEMO_00346,5,8,140.27,47.2,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,48.1,17.53,0.169,2.97,0,0,0.1138,1.9624,0.5745
+DEMO_00347,4,4,10.51,16.7,1,Demo Plus,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,20.1,2.63,0.239,0.63,3,0,0.0352,-0.8273,-1.3428
+DEMO_00348,9,5,31.69,36.8,1,Demo Plus,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Valeur moyenne,35.7,6.34,0.136,0.86,3,1,0.0662,-0.1611,0.046
+DEMO_00349,53,6,56.32,16.4,2,Demo Connect,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,14.9,9.39,0.365,3.43,1,1,0.247,-0.0856,-0.314
+DEMO_00350,19,7,104.57,27.7,3,Demo Plus,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,25.0,14.94,0.252,3.77,0,0,0.1259,1.3924,0.037
+DEMO_00351,17,13,97.64,40.2,4,Demo Start,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,40.4,7.51,0.323,2.43,0,0,0.0394,2.0845,-0.0891
+DEMO_00352,42,5,31.56,12.4,1,Demo Connect,2,3,2,232,7,2.3,Client moyen,Clients à risque,Valeur moyenne,9.5,6.31,0.405,2.55,1,0,0.1071,-0.3936,-0.8209
+DEMO_00353,13,4,59.52,2.6,1,Demo Connect,4,2,4,424,10,3.4,Client moyen,Nouveaux clients,Valeur moyenne,1.7,14.88,1.535,22.84,3,0,0.2041,0.0668,-0.511
+DEMO_00354,26,1,7.71,11.5,3,Demo Plus,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,9.7,7.71,0.087,0.67,3,0,0.1411,-1.9886,-0.4535
+DEMO_00355,35,8,107.51,43.9,1,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,46.0,13.44,0.182,2.45,2,0,0.0715,1.4871,0.7159
+DEMO_00356,9,1,5.41,10.4,4,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,9.4,5.41,0.096,0.52,3,0,0.0776,-1.5368,-0.1895
+DEMO_00357,7,8,37.93,42.4,2,Demo Flex,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,43.2,4.74,0.189,0.89,2,0,0.0808,1.2102,0.3435
+DEMO_00358,23,2,30.22,11.5,1,Demo Max,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,8.3,15.11,0.173,2.62,3,0,0.1121,-0.6248,-0.721
+DEMO_00359,26,4,45.84,19.5,1,Demo Plus,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,19.8,11.46,0.205,2.35,3,1,0.1554,-0.0882,-0.3467
+DEMO_00360,40,2,33.13,22.5,1,Demo Plus,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Valeur moyenne,20.1,16.57,0.089,1.48,1,0,0.1393,-1.1148,1.023
+DEMO_00361,8,6,44.65,10.4,1,Demo Plus,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,9.5,7.44,0.578,4.3,2,0,0.0473,-0.0999,-0.2715
+DEMO_00362,12,8,51.53,19.6,1,Demo Start,4,5,3,453,12,3.8,Client fidèle,Champions,Valeur moyenne,24.1,6.44,0.407,2.62,2,0,0.1644,0.4467,-0.0828
+DEMO_00363,80,3,63.24,6.3,3,Demo Flex,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Forte valeur,8.2,21.08,0.473,9.98,1,0,0.4874,-1.0674,-1.017
+DEMO_00364,47,1,4.32,17.8,2,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,17.5,4.32,0.056,0.24,1,0,0.2254,-2.863,-0.5844
+DEMO_00365,20,5,99.26,21.2,1,Demo Plus,3,3,5,335,11,4.0,Client fidèle,Clients à développer,Forte valeur,27.6,19.85,0.235,4.67,0,0,0.0973,1.306,0.3215
+DEMO_00366,52,1,20.62,2.7,1,Demo Flex,1,1,1,111,3,1.0,Client à risque,Nouveaux clients,Faible valeur,1.0,20.62,0.364,7.5,1,1,0.4672,-1.282,-0.2243
+DEMO_00367,8,2,32.01,11.4,1,Demo Plus,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Valeur moyenne,13.7,16.01,0.175,2.8,3,0,0.1398,-0.6395,-0.2681
+DEMO_00368,18,6,41.0,27.2,1,Demo Plus,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,24.1,6.83,0.221,1.51,2,0,0.1662,0.5627,-0.1629
+DEMO_00369,25,1,6.37,9.5,2,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,9.0,6.37,0.106,0.67,3,0,0.1403,-2.3202,-0.98
+DEMO_00370,16,4,35.54,30.1,2,Demo Start,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Valeur moyenne,27.4,8.89,0.133,1.18,3,0,0.1069,0.1016,0.7255
+DEMO_00371,17,6,29.36,32.0,2,Demo Connect,4,4,2,442,10,3.0,Client fidèle,Champions,Faible valeur,32.5,4.89,0.188,0.92,2,0,0.1164,0.307,0.7582
+DEMO_00372,38,2,11.75,27.1,1,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,27.2,5.88,0.074,0.43,1,0,0.1527,-1.3277,0.0892
+DEMO_00373,47,7,99.54,36.5,1,Demo Plus,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,35.9,14.22,0.192,2.73,1,0,0.1769,0.4652,-0.0079
+DEMO_00374,15,2,28.51,6.0,2,Demo Max,4,1,2,412,7,2.1,Client moyen,Clients prometteurs,Faible valeur,8.2,14.26,0.334,4.77,3,0,0.1072,-0.2635,-0.0224
+DEMO_00375,6,10,56.0,41.3,2,Demo Plus,5,5,4,554,14,4.5,Champion,Champions,Valeur moyenne,40.2,5.6,0.242,1.35,2,0,0.0764,0.7706,-0.0264
+DEMO_00376,4,1,14.47,10.5,2,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,11.2,14.47,0.095,1.38,3,0,0.0629,-0.6781,0.5274
+DEMO_00377,2,4,51.22,24.2,1,Demo Start,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,25.8,12.81,0.165,2.12,3,0,0.0993,0.4266,0.0134
+DEMO_00378,71,9,205.96,61.9,3,Demo Max,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,59.0,22.88,0.145,3.33,1,1,0.2616,1.1357,1.1375
+DEMO_00379,38,11,150.04,17.5,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,16.0,13.64,0.628,8.56,1,0,0.1553,1.0911,-0.9154
+DEMO_00380,32,3,53.56,22.8,1,Demo Flex,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,22.9,17.85,0.131,2.35,3,0,0.1939,-0.3934,-0.0753
+DEMO_00381,13,1,12.97,10.6,2,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,11.8,12.97,0.095,1.23,3,0,0.1148,-0.909,0.236
+DEMO_00382,13,9,153.88,61.6,1,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,64.4,17.1,0.146,2.5,0,0,0.049,1.8177,1.6933
+DEMO_00383,48,1,4.91,11.4,2,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,11.0,4.91,0.087,0.43,1,1,0.3243,-2.5154,0.2593
+DEMO_00384,4,11,102.61,33.7,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,33.1,9.33,0.326,3.04,0,0,0.0835,2.1439,-0.1046
+DEMO_00385,16,9,87.86,47.2,1,Demo Max,4,5,4,454,13,4.3,Champion,Champions,Forte valeur,45.4,9.76,0.191,1.86,0,0,0.0638,1.8249,0.4246
+DEMO_00386,53,9,78.5,35.7,1,Demo Plus,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,36.4,8.72,0.252,2.2,1,0,0.1639,0.7178,0.0982
+DEMO_00387,16,5,63.66,28.2,3,Demo Flex,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,27.6,12.73,0.177,2.26,3,0,0.0941,0.2011,-0.0429
+DEMO_00388,37,4,56.55,23.9,2,Demo Start,2,2,4,224,8,3.0,Client à risque,Clients hibernants,Valeur moyenne,23.4,14.14,0.167,2.36,1,0,0.1413,-0.1148,0.7113
+DEMO_00389,21,1,12.38,8.3,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,8.2,12.38,0.12,1.48,3,0,0.2743,-1.0012,0.0778
+DEMO_00390,20,6,54.3,59.9,1,Demo Flex,3,4,3,343,10,3.3,Client fidèle,Clients fidèles,Valeur moyenne,61.0,9.05,0.1,0.91,2,0,0.0941,0.648,1.474
+DEMO_00391,24,7,46.58,26.7,1,Demo Start,3,4,3,343,10,3.3,Client fidèle,Clients fidèles,Valeur moyenne,25.6,6.65,0.262,1.74,2,0,0.1191,0.4054,-0.533
+DEMO_00392,19,5,91.18,22.8,1,Demo Plus,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,21.3,18.24,0.219,3.99,0,0,0.0784,1.5554,0.5953
+DEMO_00393,7,4,48.36,9.9,2,Demo Max,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,10.7,12.09,0.405,4.9,3,0,0.1348,0.7016,-0.5371
+DEMO_00394,19,5,28.48,23.6,1,Demo Flex,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,17.5,5.7,0.212,1.21,3,1,0.0893,0.0844,-0.1225
+DEMO_00395,2,3,26.9,21.9,1,Demo Start,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,20.7,8.97,0.137,1.23,3,0,0.0636,-0.1518,0.7529
+DEMO_00396,15,6,22.94,61.9,1,Demo Start,4,4,2,442,10,3.0,Client fidèle,Champions,Faible valeur,59.6,3.82,0.097,0.37,2,1,0.0996,0.1098,1.3778
+DEMO_00397,39,6,61.02,22.8,2,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,25.2,10.17,0.263,2.67,1,0,0.2027,0.4821,-0.3406
+DEMO_00398,68,5,44.72,23.3,2,Demo Max,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,22.5,8.94,0.214,1.92,1,0,0.1299,-1.5102,-0.1793
+DEMO_00399,60,3,21.82,10.0,2,Demo Plus,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,8.8,7.27,0.301,2.19,1,1,0.3002,-1.3781,-1.0881
+DEMO_00400,8,5,119.22,13.2,2,Demo Max,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,13.1,23.84,0.379,9.04,0,0,0.1026,1.1345,-0.402
+DEMO_00401,5,7,36.97,31.3,4,Demo Flex,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,30.1,5.28,0.224,1.18,2,0,0.0632,0.4341,-0.2497
+DEMO_00402,25,1,14.71,5.0,1,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,4.2,14.71,0.2,2.94,3,0,0.1926,-1.5812,-0.7841
+DEMO_00403,22,5,166.02,41.2,3,Demo Plus,3,3,5,335,11,4.0,Client fidèle,Clients à développer,Forte valeur,41.4,33.2,0.121,4.03,3,0,0.0497,0.6578,0.4322
+DEMO_00404,35,2,36.08,41.9,2,Demo Start,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Valeur moyenne,41.0,18.04,0.048,0.86,3,0,0.0486,-1.4285,0.8122
+DEMO_00405,12,2,19.61,12.2,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,11.3,9.8,0.164,1.61,3,1,0.081,-0.4349,-0.6724
+DEMO_00406,23,4,21.38,28.3,2,Demo Start,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,26.2,5.35,0.142,0.76,3,0,0.1378,-0.5103,0.3616
+DEMO_00407,22,8,37.72,48.1,2,Demo Plus,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,45.8,4.72,0.166,0.78,2,0,0.0233,-0.3769,0.7015
+DEMO_00408,16,2,15.91,20.7,2,Demo Connect,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,20.9,7.95,0.096,0.77,3,0,0.0862,-1.308,0.1217
+DEMO_00409,3,4,27.34,18.2,1,Demo Plus,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,18.8,6.84,0.22,1.5,3,0,0.0381,0.1999,0.8449
+DEMO_00410,39,3,20.14,19.8,1,Demo Start,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,16.9,6.71,0.152,1.02,1,0,0.1768,-1.2777,-0.1135
+DEMO_00411,26,8,66.68,26.7,3,Demo Max,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,28.2,8.34,0.3,2.5,2,0,0.251,1.3056,0.0557
+DEMO_00412,41,5,47.14,14.5,1,Demo Connect,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,16.0,9.43,0.346,3.26,1,0,0.184,0.1738,-0.1616
+DEMO_00413,48,4,52.1,17.1,1,Demo Start,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,19.1,13.02,0.233,3.04,1,0,0.2243,-0.8906,-0.2914
+DEMO_00414,20,4,20.2,27.0,1,Demo Flex,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,27.6,5.05,0.148,0.75,3,0,0.1628,-0.72,0.3169
+DEMO_00415,39,7,47.97,16.2,1,Demo Flex,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,17.4,6.85,0.433,2.97,1,0,0.183,0.0276,-0.5944
+DEMO_00416,69,4,36.54,9.3,2,Demo Plus,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,13.7,9.14,0.431,3.94,1,0,0.3383,-1.5845,-0.5343
+DEMO_00417,85,3,26.87,4.6,2,Demo Max,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,4.0,8.96,0.652,5.84,1,0,0.5852,-2.3241,-1.007
+DEMO_00418,28,4,109.54,23.1,3,Demo Plus,3,2,5,325,10,3.7,Client moyen,Clients à développer,Forte valeur,21.0,27.39,0.173,4.73,3,0,0.1737,0.2972,-0.2086
+DEMO_00419,30,7,79.33,46.3,1,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,43.2,11.33,0.151,1.71,2,0,0.1292,0.5448,0.7949
+DEMO_00420,28,6,24.64,29.2,1,Demo Plus,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Faible valeur,32.7,4.11,0.206,0.84,2,0,0.1233,-0.2215,-0.7925
+DEMO_00421,34,2,25.11,9.6,1,Demo Start,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,13.1,12.55,0.209,2.62,3,0,0.1739,-0.7104,0.2582
+DEMO_00422,47,4,53.86,13.1,1,Demo Flex,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,11.3,13.47,0.305,4.11,1,0,0.3145,-0.1797,0.5237
+DEMO_00423,27,5,46.55,18.1,2,Demo Flex,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,16.6,9.31,0.276,2.57,3,1,0.1272,0.3088,-0.2406
+DEMO_00424,82,12,61.41,63.1,1,Demo Plus,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Valeur moyenne,62.5,5.12,0.19,0.97,1,1,0.4031,0.3159,1.3695
+DEMO_00425,74,9,236.08,65.1,1,Demo Max,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,67.6,26.23,0.138,3.62,1,0,0.1679,1.4051,1.9464
+DEMO_00426,24,9,49.84,60.6,3,Demo Start,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,58.1,5.54,0.148,0.82,2,1,0.1492,0.7798,0.6562
+DEMO_00427,23,1,14.35,24.7,2,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,20.8,14.35,0.04,0.58,3,0,0.176,-1.6482,0.7994
+DEMO_00428,15,13,144.75,72.0,1,Demo Max,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,72.0,11.13,0.181,2.01,0,0,0.0385,3.2066,1.19
+DEMO_00429,35,3,41.64,13.6,2,Demo Start,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,14.2,13.88,0.221,3.06,3,0,0.2269,-1.3391,0.703
+DEMO_00430,17,5,127.51,17.6,1,Demo Flex,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,18.6,25.5,0.283,7.23,0,0,0.0889,0.4223,-0.423
+DEMO_00431,14,7,95.09,39.3,3,Demo Plus,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,38.9,13.58,0.178,2.42,0,0,0.0861,1.35,0.872
+DEMO_00432,35,4,29.34,27.1,2,Demo Flex,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,28.1,7.34,0.147,1.08,3,1,0.1344,-0.7284,0.1176
+DEMO_00433,8,9,164.93,28.1,1,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,25.1,18.33,0.32,5.86,0,0,0.0736,1.6264,0.7394
+DEMO_00434,47,5,35.25,10.9,1,Demo Plus,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,9.2,7.05,0.46,3.24,1,0,0.3184,-0.926,-0.8819
+DEMO_00435,36,4,43.65,21.8,1,Demo Flex,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,22.0,10.91,0.183,2.0,3,0,0.2094,-0.6528,0.4764
+DEMO_00436,71,8,39.18,13.7,2,Demo Max,1,5,3,153,9,3.2,Client moyen,Ne doit pas les perdre,Valeur moyenne,9.2,4.9,0.582,2.85,1,0,0.2361,-0.1082,-0.532
+DEMO_00437,29,3,16.95,7.9,1,Demo Start,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,7.3,5.65,0.381,2.15,3,0,0.1139,-0.7054,-0.4103
+DEMO_00438,40,4,41.04,15.0,2,Demo Connect,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,14.2,10.26,0.268,2.74,1,0,0.221,0.113,-0.2609
+DEMO_00439,44,7,85.49,27.1,1,Demo Plus,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,26.5,12.21,0.258,3.15,1,0,0.21,0.011,-0.3978
+DEMO_00440,57,6,23.46,35.4,1,Demo Start,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Faible valeur,34.3,3.91,0.169,0.66,1,0,0.18,-1.3793,-0.7804
+DEMO_00441,26,2,26.22,4.4,1,Demo Plus,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,2.5,13.11,0.45,5.9,3,1,0.3023,-1.3979,-0.1681
+DEMO_00442,15,3,19.07,22.5,1,Demo Max,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,18.8,6.36,0.133,0.85,3,0,0.153,-0.3243,-0.1378
+DEMO_00443,29,2,40.33,21.1,1,Demo Max,2,1,3,213,6,2.2,Client à risque,Clients hibernants,Valeur moyenne,21.4,20.16,0.095,1.91,3,0,0.1276,-0.4529,0.6454
+DEMO_00444,47,2,16.44,26.2,1,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,25.6,8.22,0.076,0.63,1,0,0.1756,-1.6397,0.5123
+DEMO_00445,52,4,21.51,9.7,3,Demo Max,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,7.0,5.38,0.412,2.21,1,0,0.2451,-1.1305,-0.0655
+DEMO_00446,4,3,31.2,9.9,1,Demo Start,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Valeur moyenne,10.0,10.4,0.304,3.16,3,0,0.0838,-0.1855,-0.1391
+DEMO_00447,136,9,54.23,47.1,2,Demo Plus,1,5,3,153,9,3.2,Client moyen,Ne doit pas les perdre,Valeur moyenne,46.5,6.03,0.191,1.15,1,1,0.7771,-1.6079,-0.4844
+DEMO_00448,14,5,100.22,12.3,1,Demo Start,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,11.4,20.04,0.407,8.15,0,0,0.1661,1.1096,-0.3085
+DEMO_00449,41,2,19.95,17.1,2,Demo Flex,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,12.7,9.98,0.117,1.17,1,1,0.2164,-1.4532,-0.2242
+DEMO_00450,61,3,27.53,18.3,1,Demo Start,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,19.7,9.18,0.164,1.51,1,0,0.3727,-1.7712,0.413
+DEMO_00451,22,1,13.81,13.9,2,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,11.5,13.81,0.072,0.99,3,0,0.2106,-1.2916,0.151
+DEMO_00452,53,7,40.17,30.7,1,Demo Max,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,30.8,5.74,0.228,1.31,1,1,0.2233,-0.3842,0.337
+DEMO_00453,3,9,44.18,29.1,1,Demo Flex,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,27.4,4.91,0.31,1.52,2,0,0.0824,1.1872,-0.3285
+DEMO_00454,55,7,87.4,20.5,1,Demo Start,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,19.7,12.49,0.341,4.26,1,1,0.296,0.3403,-0.8135
+DEMO_00455,50,2,10.9,14.5,1,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,16.8,5.45,0.138,0.75,1,0,0.3074,-1.7319,-0.381
+DEMO_00456,32,3,16.34,19.4,1,Demo Connect,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,20.5,5.45,0.154,0.84,3,1,0.1249,-1.1469,-0.8682
+DEMO_00457,47,6,94.82,23.7,1,Demo Max,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,26.0,15.8,0.253,3.99,1,0,0.1621,0.1188,-0.4214
+DEMO_00458,75,3,39.94,13.1,3,Demo Plus,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,13.8,13.31,0.229,3.04,1,1,0.3667,-1.1908,-1.0084
+DEMO_00459,63,5,25.02,32.1,1,Demo Flex,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,32.9,5.0,0.156,0.78,1,0,0.2117,-1.002,-0.3179
+DEMO_00460,23,8,56.76,41.0,1,Demo Connect,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Valeur moyenne,37.5,7.1,0.195,1.38,2,0,0.0545,0.9671,0.4973
+DEMO_00461,29,6,36.41,51.9,3,Demo Plus,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,51.3,6.07,0.116,0.7,2,0,0.1426,0.3408,1.3845
+DEMO_00462,20,5,132.48,50.0,2,Demo Connect,3,3,5,335,11,4.0,Client fidèle,Clients à développer,Forte valeur,49.6,26.5,0.1,2.65,0,0,0.1055,0.847,1.1415
+DEMO_00463,18,7,114.92,18.2,1,Demo Start,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,20.7,16.42,0.384,6.31,0,0,0.064,1.5457,-0.7339
+DEMO_00464,44,8,63.31,24.5,1,Demo Connect,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Forte valeur,23.5,7.91,0.326,2.58,1,1,0.1698,-0.1191,-0.7436
+DEMO_00465,19,4,54.77,20.3,1,Demo Start,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,20.8,13.69,0.197,2.7,3,0,0.1138,0.1219,-0.2619
+DEMO_00466,44,1,4.73,20.2,1,Demo Plus,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,20.7,4.73,0.049,0.23,1,1,0.2498,-2.8049,-0.1956
+DEMO_00467,22,2,13.78,19.3,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,21.7,6.89,0.103,0.71,3,0,0.091,-0.8229,0.0078
+DEMO_00468,24,9,95.1,22.8,2,Demo Flex,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,22.5,10.57,0.395,4.18,2,0,0.0697,1.2972,-1.1814
+DEMO_00469,11,4,51.16,45.1,3,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,46.8,12.79,0.089,1.13,3,1,0.099,0.4819,1.3445
+DEMO_00470,43,5,47.27,27.7,1,Demo Plus,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,24.2,9.45,0.181,1.71,1,0,0.1038,-0.8503,-0.1314
+DEMO_00471,3,3,34.3,9.4,1,Demo Plus,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Valeur moyenne,6.2,11.43,0.32,3.66,3,0,0.087,-0.2051,-0.3533
+DEMO_00472,56,12,124.96,40.0,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,35.4,10.41,0.3,3.13,1,0,0.1796,1.1807,0.4015
+DEMO_00473,104,6,54.7,26.0,1,Demo Start,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,27.6,9.12,0.231,2.1,1,1,0.5149,-0.229,0.0965
+DEMO_00474,25,8,67.8,30.9,1,Demo Flex,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,32.2,8.47,0.259,2.2,2,0,0.1286,0.6584,0.3368
+DEMO_00475,24,5,39.45,27.3,2,Demo Start,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,29.1,7.89,0.183,1.44,3,0,0.2267,-0.0076,-0.8222
+DEMO_00476,5,4,45.33,28.1,1,Demo Connect,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,26.8,11.33,0.142,1.61,3,0,0.0411,0.3266,0.0215
+DEMO_00477,15,5,62.51,28.9,3,Demo Connect,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,27.8,12.5,0.173,2.16,3,0,0.1411,-0.0361,0.6792
+DEMO_00478,48,4,44.5,5.4,1,Demo Start,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,5.1,11.12,0.746,8.3,1,0,0.0982,-0.7216,-0.5775
+DEMO_00479,53,4,20.86,30.6,1,Demo Max,1,3,1,131,5,1.6,Client moyen,Clients à risque,Faible valeur,33.5,5.22,0.131,0.68,1,0,0.3587,-1.1104,1.1921
+DEMO_00480,28,5,28.79,13.5,1,Demo Connect,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Faible valeur,16.9,5.76,0.369,2.13,3,0,0.0669,-0.329,0.2396
+DEMO_00481,46,2,24.84,16.1,2,Demo Connect,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,17.7,12.42,0.124,1.54,1,0,0.4837,-2.1108,0.0225
+DEMO_00482,11,6,134.45,22.6,1,Demo Flex,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,23.3,22.41,0.265,5.94,0,0,0.0799,1.2021,-0.3198
+DEMO_00483,33,11,119.31,56.8,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,59.4,10.85,0.194,2.1,2,0,0.1756,2.0646,0.4445
+DEMO_00484,67,4,31.81,10.7,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,10.2,7.95,0.375,2.98,1,0,0.462,-0.9687,-0.7754
+DEMO_00485,38,5,56.42,22.1,2,Demo Flex,2,3,4,234,9,3.3,Client moyen,Clients à risque,Valeur moyenne,21.4,11.28,0.226,2.55,1,0,0.1511,0.4262,-0.3147
+DEMO_00486,74,6,32.02,19.0,3,Demo Plus,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,18.8,5.34,0.315,1.68,1,0,0.32,-1.3219,-0.6399
+DEMO_00487,76,6,122.94,39.6,1,Demo Max,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,37.7,20.49,0.151,3.1,1,0,0.2436,0.5596,0.1645
+DEMO_00488,35,8,88.42,18.7,1,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,18.3,11.05,0.428,4.74,2,0,0.2143,0.9164,-0.406
+DEMO_00489,52,5,34.51,26.2,1,Demo Plus,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,24.0,6.9,0.191,1.32,1,0,0.1968,-0.1053,0.8199
+DEMO_00490,7,6,54.6,10.7,1,Demo Start,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,12.8,9.1,0.561,5.1,2,0,0.0674,0.7278,-0.3374
+DEMO_00491,1,7,52.25,43.7,4,Demo Plus,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,44.8,7.46,0.16,1.2,2,0,0.0737,0.2548,0.522
+DEMO_00492,3,7,143.64,7.3,1,Demo Connect,5,4,5,545,14,4.7,Champion,Champions,Forte valeur,10.2,20.52,0.955,19.6,0,0,0.0594,2.0765,-0.5554
+DEMO_00493,55,5,44.62,30.4,2,Demo Plus,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,27.1,8.92,0.165,1.47,1,0,0.2083,-0.6566,0.4057
+DEMO_00494,35,5,54.32,26.3,3,Demo Start,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,30.1,10.86,0.19,2.07,3,0,0.167,-0.1029,0.0429
+DEMO_00495,28,3,41.02,28.8,2,Demo Connect,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,25.6,13.67,0.104,1.43,3,0,0.1118,-0.9168,0.3267
+DEMO_00496,38,2,13.27,7.4,1,Demo Flex,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,5.0,6.64,0.27,1.79,1,0,0.1822,-1.0913,-0.6046
+DEMO_00497,3,3,33.29,18.4,2,Demo Max,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Valeur moyenne,17.2,11.1,0.163,1.81,3,0,0.1605,-0.2823,0.1872
+DEMO_00498,20,9,104.39,38.5,1,Demo Flex,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,41.1,11.6,0.234,2.71,0,0,0.0864,2.0729,0.2911
+DEMO_00499,13,7,29.7,61.8,1,Demo Plus,4,4,2,442,10,3.0,Client fidèle,Champions,Faible valeur,62.3,4.24,0.113,0.48,2,0,0.0576,0.1231,1.1765
+DEMO_00500,27,5,57.31,21.1,4,Demo Connect,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Valeur moyenne,20.6,11.46,0.237,2.72,3,0,0.1302,-0.0944,-0.5305
+DEMO_00501,27,7,68.08,36.3,1,Demo Connect,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,34.7,9.73,0.193,1.88,2,0,0.1422,1.1495,0.4625
+DEMO_00502,36,7,74.99,24.7,1,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,21.9,10.71,0.283,3.04,1,0,0.1075,0.5739,-0.0173
+DEMO_00503,41,5,50.86,21.8,1,Demo Plus,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,24.1,10.17,0.23,2.33,1,0,0.2194,-0.1555,-0.288
+DEMO_00504,3,8,92.02,17.0,1,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,18.6,11.5,0.471,5.42,0,0,0.0872,1.1132,-1.1741
+DEMO_00505,20,2,41.62,22.7,2,Demo Max,3,1,3,313,7,2.4,Client moyen,Clients à développer,Valeur moyenne,25.4,20.81,0.088,1.83,3,0,0.0628,-0.5588,0.7544
+DEMO_00506,24,6,31.28,34.3,2,Demo Max,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Valeur moyenne,35.1,5.21,0.175,0.91,2,0,0.2233,0.0984,0.8005
+DEMO_00507,7,6,49.58,36.1,2,Demo Max,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,30.8,8.26,0.166,1.37,2,0,0.1346,0.196,-0.4809
+DEMO_00508,6,3,43.17,8.7,1,Demo Connect,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,6.2,14.39,0.345,4.97,3,0,0.0738,-0.1311,0.0486
+DEMO_00509,5,4,51.98,15.9,1,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,16.9,12.99,0.251,3.26,3,1,0.0568,0.246,-0.4127
+DEMO_00510,45,5,64.21,10.3,1,Demo Flex,1,3,4,134,8,3.1,Client moyen,Clients à risque,Forte valeur,9.6,12.84,0.486,6.24,1,0,0.2453,-0.003,-0.5921
+DEMO_00511,4,3,136.06,23.5,1,Demo Max,5,2,5,525,12,4.1,Client moyen,Clients prometteurs,Forte valeur,22.3,45.35,0.128,5.8,0,0,0.0469,1.5713,0.6396
+DEMO_00512,5,6,83.89,18.0,2,Demo Max,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,15.8,13.98,0.334,4.67,0,0,0.1451,1.0196,0.3215
+DEMO_00513,26,6,111.47,28.2,2,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,30.1,18.58,0.213,3.96,2,0,0.1041,0.7253,0.5006
+DEMO_00514,33,5,42.12,29.4,3,Demo Max,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,30.3,8.42,0.17,1.43,3,0,0.2672,0.817,0.3134
+DEMO_00515,23,5,28.89,3.1,2,Demo Max,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Faible valeur,4.1,5.78,1.594,9.21,3,0,0.1088,-0.4211,-1.627
+DEMO_00516,8,8,67.13,22.6,1,Demo Start,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,21.3,8.39,0.354,2.97,2,0,0.0804,1.1354,-1.3173
+DEMO_00517,6,7,103.28,45.7,2,Demo Flex,5,4,5,545,14,4.7,Champion,Champions,Forte valeur,46.0,14.75,0.153,2.26,0,0,0.1108,1.3132,1.1529
+DEMO_00518,25,4,49.9,15.9,2,Demo Plus,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,13.3,12.48,0.251,3.13,3,0,0.1276,-0.1179,0.2854
+DEMO_00519,21,6,74.71,15.6,3,Demo Plus,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,15.4,12.45,0.384,4.79,0,0,0.14,0.7475,-0.8973
+DEMO_00520,17,6,53.19,41.0,1,Demo Flex,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,35.9,8.86,0.146,1.3,2,0,0.1401,0.8424,0.5194
+DEMO_00521,44,6,48.72,37.1,2,Demo Plus,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,34.0,8.12,0.162,1.31,1,0,0.1407,0.0782,0.2099
+DEMO_00522,20,3,27.1,11.1,1,Demo Max,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,10.5,9.03,0.27,2.44,3,0,0.0835,-0.2115,-0.7052
+DEMO_00523,5,5,74.28,34.9,2,Demo Max,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Forte valeur,39.6,14.86,0.143,2.13,0,0,0.0404,1.2109,0.9417
+DEMO_00524,17,7,110.86,13.0,3,Demo Start,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,9.4,15.84,0.538,8.52,0,0,0.1438,1.3686,-0.6508
+DEMO_00525,36,2,11.47,15.5,3,Demo Plus,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,13.0,5.73,0.129,0.74,3,0,0.2263,-1.6103,-0.2447
+DEMO_00526,19,1,15.17,11.1,1,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,11.5,15.17,0.09,1.37,3,1,0.2211,-0.9771,0.9503
+DEMO_00527,36,3,20.92,8.6,1,Demo Start,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,12.2,6.97,0.347,2.42,3,0,0.1793,-1.4804,-1.2022
+DEMO_00528,41,7,90.36,24.4,2,Demo Max,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,24.8,12.91,0.287,3.71,1,1,0.1023,1.5427,0.0209
+DEMO_00529,20,1,8.97,7.6,2,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,9.0,8.97,0.131,1.18,3,0,0.0611,-1.9736,-0.879
+DEMO_00530,23,4,94.39,25.0,3,Demo Connect,3,3,5,335,11,4.0,Client fidèle,Clients à développer,Forte valeur,24.3,23.6,0.16,3.78,3,0,0.3472,0.4264,0.0289
+DEMO_00531,18,2,15.85,24.5,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,23.5,7.93,0.082,0.65,3,0,0.1506,-1.5705,0.3406
+DEMO_00532,36,4,44.02,20.4,3,Demo Plus,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,20.6,11.0,0.196,2.15,1,0,0.186,-0.7439,0.269
+DEMO_00533,17,3,41.77,16.5,2,Demo Connect,4,2,3,423,9,2.9,Client moyen,Clients prometteurs,Valeur moyenne,15.1,13.92,0.182,2.54,3,0,0.1391,0.1558,-0.313
+DEMO_00534,33,5,30.84,14.3,1,Demo Plus,2,3,2,232,7,2.3,Client moyen,Clients à risque,Faible valeur,15.7,6.17,0.35,2.16,3,0,0.0978,0.3866,-0.6585
+DEMO_00535,28,6,57.49,10.1,1,Demo Max,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Valeur moyenne,6.8,9.58,0.597,5.72,2,0,0.1126,0.1772,-0.9128
+DEMO_00536,3,5,43.07,52.1,2,Demo Flex,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,53.9,8.61,0.096,0.83,3,0,0.122,0.5677,0.7674
+DEMO_00537,35,2,15.04,19.8,1,Demo Connect,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,19.9,7.52,0.101,0.76,3,1,0.2349,-1.4309,0.3429
+DEMO_00538,26,2,15.66,19.4,2,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,19.0,7.83,0.103,0.81,3,0,0.1137,-0.9548,0.1645
+DEMO_00539,58,5,91.93,11.5,1,Demo Start,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,8.2,18.39,0.434,7.98,1,0,0.1876,0.8153,-0.4255
+DEMO_00540,7,4,28.71,48.9,1,Demo Connect,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,46.9,7.18,0.082,0.59,3,0,0.0567,0.3976,1.1712
+DEMO_00541,28,3,40.86,14.9,1,Demo Start,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,17.3,13.62,0.201,2.74,3,0,0.1427,-0.4907,-0.3531
+DEMO_00542,15,1,11.86,26.5,4,Demo Flex,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,26.1,11.86,0.038,0.45,3,0,0.2563,-1.3046,0.9957
+DEMO_00543,3,7,32.38,29.8,2,Demo Max,5,4,2,542,11,3.2,Client fidèle,Champions,Valeur moyenne,30.4,4.63,0.235,1.09,2,0,0.0655,0.7512,0.4865
+DEMO_00544,2,3,39.81,24.4,2,Demo Max,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,22.6,13.27,0.123,1.63,3,0,0.049,0.0587,0.806
+DEMO_00545,66,1,4.58,7.5,2,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,7.4,4.58,0.134,0.61,1,1,0.3799,-3.5405,-0.2463
+DEMO_00546,28,6,84.54,34.0,2,Demo Connect,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,31.2,14.09,0.177,2.49,2,0,0.14,0.4092,0.9264
+DEMO_00547,19,3,22.64,14.8,3,Demo Start,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,15.0,7.55,0.202,1.53,3,0,0.0791,-0.3232,-0.4585
+DEMO_00548,4,9,90.18,36.9,2,Demo Max,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,37.6,10.02,0.244,2.45,0,0,0.0783,2.1235,0.0641
+DEMO_00549,64,3,14.68,21.7,1,Demo Flex,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,22.3,4.89,0.138,0.68,1,0,0.4373,-1.9751,0.5826
+DEMO_00550,12,14,149.36,31.0,1,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,29.2,10.67,0.452,4.82,0,0,0.083,2.8827,-0.2317
+DEMO_00551,29,8,132.86,47.0,1,Demo Connect,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,46.3,16.61,0.17,2.83,2,0,0.0803,1.7948,0.5892
+DEMO_00552,25,8,51.19,33.2,2,Demo Plus,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,34.3,6.4,0.241,1.54,2,0,0.0916,0.0656,-0.3857
+DEMO_00553,86,4,28.57,31.4,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,31.0,7.14,0.127,0.91,1,1,0.2485,-1.7708,0.3046
+DEMO_00554,23,6,76.85,34.9,2,Demo Connect,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,34.4,12.81,0.172,2.2,2,0,0.1043,1.4211,0.0532
+DEMO_00555,14,4,51.94,12.7,3,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,16.5,12.98,0.315,4.09,3,1,0.1315,0.321,0.3074
+DEMO_00556,29,6,15.69,37.8,1,Demo Start,2,4,1,241,7,2.1,Client moyen,Ne doit pas les perdre,Faible valeur,35.9,2.61,0.159,0.41,2,0,0.0857,-1.0948,0.8362
+DEMO_00557,31,2,60.44,18.8,1,Demo Flex,2,1,4,214,7,2.7,Client à risque,Clients hibernants,Valeur moyenne,21.0,30.22,0.106,3.21,3,0,0.3337,-0.2612,-0.333
+DEMO_00558,128,6,80.03,19.2,2,Demo Start,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,16.9,13.34,0.312,4.16,1,0,0.763,-0.8756,-0.8337
+DEMO_00559,22,7,102.43,23.9,1,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,25.2,14.63,0.293,4.29,2,0,0.0564,0.2342,-0.5981
+DEMO_00560,7,3,27.65,17.7,2,Demo Plus,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,19.1,9.22,0.17,1.57,3,1,0.0459,-0.263,-0.3923
+DEMO_00561,17,6,21.57,10.8,1,Demo Connect,4,4,2,442,10,3.0,Client fidèle,Champions,Faible valeur,9.8,3.6,0.555,2.0,2,0,0.0797,-0.3508,-0.8277
+DEMO_00562,29,8,115.65,22.7,1,Demo Start,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,20.3,14.46,0.352,5.09,2,0,0.2407,0.6995,0.1014
+DEMO_00563,33,7,51.17,19.3,2,Demo Start,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,15.4,7.31,0.363,2.65,2,1,0.2158,0.3777,-0.8941
+DEMO_00564,4,2,26.9,18.8,1,Demo Flex,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,17.6,13.45,0.106,1.43,3,0,0.1759,-0.5044,1.0429
+DEMO_00565,15,6,53.06,21.2,1,Demo Plus,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,22.3,8.84,0.283,2.5,2,0,0.1044,0.5427,-0.6965
+DEMO_00566,82,3,34.11,3.5,1,Demo Start,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Valeur moyenne,1.3,11.37,0.861,9.79,1,0,0.4433,-1.6902,-1.4288
+DEMO_00567,10,3,19.54,18.9,1,Demo Start,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,19.1,6.51,0.158,1.03,3,0,0.0608,-1.0162,0.6781
+DEMO_00568,45,11,176.5,50.5,3,Demo Flex,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,47.5,16.05,0.218,3.5,1,0,0.167,1.3108,1.1804
+DEMO_00569,17,7,36.32,48.1,1,Demo Max,4,4,2,442,10,3.0,Client fidèle,Champions,Valeur moyenne,47.7,5.19,0.145,0.75,2,0,0.0777,0.1176,0.7894
+DEMO_00570,23,5,171.49,23.2,1,Demo Flex,3,3,5,335,11,4.0,Client fidèle,Clients à développer,Forte valeur,20.9,34.3,0.215,7.38,3,0,0.1159,1.5089,0.0912
+DEMO_00571,19,4,136.61,22.7,1,Demo Start,4,3,5,435,12,4.2,Client fidèle,Clients à risque,Forte valeur,22.6,34.15,0.176,6.01,0,0,0.2168,1.0227,0.1777
+DEMO_00572,28,2,48.97,2.6,1,Demo Plus,3,1,3,313,7,2.4,Client moyen,Nouveaux clients,Valeur moyenne,1.6,24.48,0.767,18.77,3,0,0.1775,-0.4476,-0.675
+DEMO_00573,23,1,20.12,15.4,1,Demo Flex,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,13.1,20.12,0.065,1.3,3,0,0.2524,-1.5724,-0.6294
+DEMO_00574,20,11,104.73,34.7,2,Demo Plus,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,33.4,9.52,0.317,3.02,0,0,0.0488,1.7181,-1.2584
+DEMO_00575,36,4,75.78,17.4,1,Demo Start,2,3,4,234,9,3.3,Client moyen,Clients à risque,Forte valeur,15.5,18.95,0.23,4.37,1,0,0.4271,0.3768,-0.633
+DEMO_00576,6,9,85.14,42.0,2,Demo Plus,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,39.4,9.46,0.214,2.03,0,0,0.0561,1.7826,1.208
+DEMO_00577,29,7,29.71,40.5,1,Demo Plus,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Faible valeur,42.6,4.24,0.173,0.73,2,0,0.1577,-0.2004,1.353
+DEMO_00578,2,2,45.6,15.2,1,Demo Start,5,1,3,513,9,2.8,Client moyen,Clients prometteurs,Valeur moyenne,14.5,22.8,0.131,3.0,3,0,0.1294,-0.896,-0.2722
+DEMO_00579,54,2,37.11,24.4,1,Demo Connect,1,1,3,113,5,2.0,Client à risque,Clients hibernants,Valeur moyenne,20.0,18.56,0.082,1.52,1,1,0.2235,-1.374,-0.163
+DEMO_00580,20,6,58.82,52.9,2,Demo Plus,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Valeur moyenne,51.6,9.8,0.114,1.11,2,0,0.1234,0.3658,1.3138
+DEMO_00581,43,3,15.25,7.3,3,Demo Max,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,9.2,5.08,0.41,2.08,1,0,0.3075,-1.7922,-0.4201
+DEMO_00582,0,4,28.9,17.6,1,Demo Start,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,16.1,7.23,0.227,1.64,3,1,0.0594,-0.1479,0.0298
+DEMO_00583,38,1,3.66,6.7,3,Demo Max,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,9.7,3.66,0.149,0.55,1,0,0.1809,-2.4904,-1.586
+DEMO_00584,11,5,83.87,12.0,1,Demo Max,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,10.3,16.77,0.416,6.98,0,0,0.1082,0.8232,0.8231
+DEMO_00585,24,10,41.3,62.1,1,Demo Connect,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,63.1,4.13,0.161,0.67,2,0,0.0783,1.1853,1.7281
+DEMO_00586,39,3,35.04,17.6,2,Demo Plus,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Valeur moyenne,19.7,11.68,0.17,1.99,1,1,0.3137,-1.2552,-0.2312
+DEMO_00587,22,3,18.81,4.4,1,Demo Flex,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,5.3,6.27,0.687,4.31,3,1,0.1985,-1.0258,-1.0773
+DEMO_00588,35,3,13.65,10.7,1,Demo Plus,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,8.0,4.55,0.28,1.27,3,0,0.1883,-2.1025,-0.0165
+DEMO_00589,17,3,34.11,6.1,1,Demo Max,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Valeur moyenne,4.2,11.37,0.492,5.59,3,1,0.1723,-0.5031,-0.4509
+DEMO_00590,57,3,24.9,25.0,2,Demo Connect,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,27.3,8.3,0.12,1.0,1,0,0.1283,-1.7246,0.2389
+DEMO_00591,20,7,110.71,29.6,1,Demo Max,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,27.9,15.82,0.237,3.75,0,0,0.0834,1.6765,0.2203
+DEMO_00592,21,10,49.67,38.1,3,Demo Flex,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,40.1,4.97,0.262,1.3,2,0,0.1071,1.1894,0.0632
+DEMO_00593,21,1,6.58,33.6,1,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,32.7,6.58,0.03,0.2,3,1,0.1971,-1.6909,0.9731
+DEMO_00594,23,5,13.41,7.6,3,Demo Connect,3,3,1,331,7,2.0,Client fidèle,Clients à développer,Faible valeur,7.9,2.68,0.656,1.76,3,1,0.1556,-1.0332,-0.4742
+DEMO_00595,6,5,15.0,28.6,1,Demo Start,5,3,1,531,9,2.4,Client fidèle,Clients à risque,Faible valeur,25.9,3.0,0.175,0.52,3,0,0.1457,-0.8383,0.323
+DEMO_00596,9,5,134.08,20.6,2,Demo Start,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,19.4,26.82,0.243,6.51,0,0,0.1324,0.9004,-0.0705
+DEMO_00597,47,5,156.87,41.5,1,Demo Max,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,39.7,31.37,0.121,3.78,1,0,0.1531,0.7802,1.3883
+DEMO_00598,42,6,62.98,35.9,1,Demo Connect,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,36.4,10.5,0.167,1.75,1,0,0.1613,0.8108,-0.3111
+DEMO_00599,40,14,88.76,66.8,1,Demo Max,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,67.0,6.34,0.209,1.33,1,0,0.1309,1.9603,0.6864
+DEMO_00600,33,6,50.79,11.4,2,Demo Plus,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,12.3,8.46,0.527,4.46,2,1,0.1423,0.0508,-0.714
+DEMO_00601,15,5,80.63,10.2,1,Demo Max,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,9.2,16.13,0.491,7.92,0,0,0.2081,0.6753,-1.0115
+DEMO_00602,13,5,37.58,16.1,2,Demo Start,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,14.2,7.52,0.31,2.33,3,0,0.0679,0.1221,-0.5875
+DEMO_00603,22,7,79.57,21.2,4,Demo Start,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,21.5,11.37,0.331,3.76,2,1,0.1366,1.6253,0.2062
+DEMO_00604,53,4,39.62,14.0,1,Demo Start,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,11.9,9.9,0.287,2.84,1,0,0.3292,-0.2955,-0.477
+DEMO_00605,27,3,21.88,11.8,1,Demo Start,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,14.0,7.29,0.253,1.85,3,0,0.1429,-0.8045,-1.2323
+DEMO_00606,9,7,52.27,27.4,1,Demo Flex,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,27.2,7.47,0.255,1.9,2,0,0.0665,0.8576,-0.2735
+DEMO_00607,5,2,23.44,16.1,1,Demo Plus,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,15.4,11.72,0.124,1.46,3,0,0.0951,-0.4845,-0.0889
+DEMO_00608,43,2,11.66,13.5,1,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,14.5,5.83,0.148,0.86,1,0,0.3044,-1.6958,-0.2145
+DEMO_00609,65,3,38.36,7.6,2,Demo Max,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,7.5,12.79,0.394,5.04,1,0,0.2997,-1.2922,-0.3542
+DEMO_00610,4,2,15.39,2.9,1,Demo Plus,5,1,1,511,7,1.8,Client moyen,Nouveaux clients,Faible valeur,1.0,7.7,0.698,5.37,3,0,0.0689,-1.1972,-0.5112
+DEMO_00611,45,6,64.19,49.0,1,Demo Plus,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,46.9,10.7,0.122,1.31,1,0,0.2414,0.5155,0.9497
+DEMO_00612,32,9,192.17,48.2,2,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,50.3,21.35,0.187,3.99,2,0,0.1349,1.807,0.1398
+DEMO_00613,11,6,54.56,36.6,1,Demo Start,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,36.8,9.09,0.164,1.49,2,0,0.1237,0.9814,0.2399
+DEMO_00614,27,5,82.71,31.5,2,Demo Flex,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,28.1,16.54,0.159,2.63,3,0,0.1726,1.1006,0.0213
+DEMO_00615,7,2,7.44,15.0,3,Demo Start,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,15.8,3.72,0.133,0.49,3,1,0.2377,-1.3508,-0.2907
+DEMO_00616,19,11,84.71,32.3,1,Demo Start,4,5,4,454,13,4.3,Champion,Champions,Forte valeur,31.2,7.7,0.341,2.62,0,0,0.1482,1.8115,0.0578
+DEMO_00617,23,5,50.64,9.6,1,Demo Start,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,7.9,10.13,0.52,5.27,3,1,0.1071,1.3118,-0.527
+DEMO_00618,57,2,57.45,24.0,2,Demo Plus,1,1,4,114,6,2.5,Client à risque,Clients hibernants,Valeur moyenne,21.7,28.73,0.083,2.39,1,0,0.3241,-0.755,0.6214
+DEMO_00619,18,1,3.39,12.7,2,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,14.7,3.39,0.079,0.27,3,0,0.117,-2.836,-0.3447
+DEMO_00620,12,8,75.68,32.4,2,Demo Plus,4,5,4,454,13,4.3,Champion,Champions,Forte valeur,28.5,9.46,0.247,2.34,0,0,0.0701,1.1293,0.7252
+DEMO_00621,30,7,155.57,55.0,2,Demo Plus,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,53.3,22.22,0.127,2.83,2,0,0.0599,1.8711,1.4906
+DEMO_00622,36,3,19.43,10.7,1,Demo Start,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,10.9,6.48,0.281,1.82,3,1,0.1766,-1.6093,-0.4117
+DEMO_00623,12,5,44.36,15.6,1,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,18.7,8.87,0.321,2.85,3,0,0.129,0.0354,-0.1623
+DEMO_00624,8,4,47.88,23.7,2,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,24.8,11.97,0.169,2.02,3,0,0.0894,0.6473,-0.264
+DEMO_00625,9,1,11.04,4.9,2,Demo Start,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,3.2,11.04,0.204,2.26,3,0,0.0815,-1.5273,-1.4815
+DEMO_00626,57,1,23.6,6.4,2,Demo Max,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,9.4,23.6,0.157,3.71,1,0,0.2005,-1.7649,-0.7377
+DEMO_00627,35,15,191.47,54.0,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,51.3,12.76,0.278,3.54,2,1,0.2386,3.1101,0.6916
+DEMO_00628,17,6,124.22,27.5,2,Demo Flex,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,28.1,20.7,0.218,4.51,0,0,0.1179,0.9683,0.0552
+DEMO_00629,50,4,32.73,14.5,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,15.4,8.18,0.277,2.26,1,0,0.1855,-1.3545,-0.4482
+DEMO_00630,12,4,26.55,22.1,1,Demo Plus,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,20.3,6.64,0.181,1.2,3,1,0.121,-0.7717,-0.4159
+DEMO_00631,22,2,17.62,16.2,1,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,17.5,8.81,0.124,1.09,3,0,0.3093,-0.9271,-0.9914
+DEMO_00632,7,6,31.63,24.2,1,Demo Start,5,4,2,542,11,3.2,Client fidèle,Champions,Valeur moyenne,23.1,5.27,0.248,1.31,2,0,0.1086,0.3605,0.5053
+DEMO_00633,49,6,78.08,16.6,2,Demo Start,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,18.0,13.01,0.362,4.71,1,0,0.0771,-0.0041,-0.5796
+DEMO_00634,11,1,8.07,21.0,1,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,17.3,8.07,0.048,0.38,3,0,0.2986,-2.1072,0.0164
+DEMO_00635,11,9,62.04,34.2,2,Demo Connect,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,34.8,6.89,0.263,1.82,2,0,0.0363,1.1535,-0.2723
+DEMO_00636,31,8,104.97,32.8,1,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,32.0,13.12,0.244,3.2,2,0,0.1198,1.5431,0.6313
+DEMO_00637,1,13,69.12,52.2,1,Demo Max,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,54.5,5.32,0.249,1.32,2,0,0.0309,1.8834,0.8663
+DEMO_00638,6,7,106.66,28.8,1,Demo Start,5,4,5,545,14,4.7,Champion,Champions,Forte valeur,28.7,15.24,0.243,3.71,0,0,0.0558,1.2421,-0.4577
+DEMO_00639,40,6,46.0,23.0,1,Demo Max,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,25.5,7.67,0.261,2.0,1,0,0.1969,-0.4444,0.3353
+DEMO_00640,9,10,188.69,56.9,2,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,57.9,18.87,0.176,3.32,0,0,0.0248,2.2522,0.9132
+DEMO_00641,105,4,32.15,19.5,1,Demo Max,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,19.3,8.04,0.205,1.65,1,1,0.5562,-1.766,-0.4269
+DEMO_00642,26,2,28.24,3.2,1,Demo Start,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,4.8,14.12,0.63,8.89,3,0,0.2649,-0.0965,-0.8424
+DEMO_00643,3,9,99.09,36.9,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,38.5,11.01,0.244,2.69,0,0,0.045,1.8608,-0.1971
+DEMO_00644,67,4,60.07,26.7,1,Demo Start,1,3,4,134,8,3.1,Client moyen,Clients à risque,Valeur moyenne,27.6,15.02,0.15,2.25,1,0,0.1951,-0.6742,-0.4184
+DEMO_00645,26,3,31.79,22.3,1,Demo Flex,3,2,2,322,7,2.2,Client moyen,Clients à développer,Valeur moyenne,17.7,10.6,0.134,1.42,3,0,0.137,-0.2731,0.4239
+DEMO_00646,19,8,31.96,37.5,4,Demo Flex,4,5,2,452,11,3.3,Client fidèle,Champions,Valeur moyenne,35.5,4.0,0.213,0.85,2,0,0.0836,0.6207,0.1821
+DEMO_00647,26,2,34.74,16.7,1,Demo Flex,3,1,2,312,6,1.9,Client moyen,Clients à développer,Valeur moyenne,19.4,17.37,0.12,2.08,3,0,0.1254,-0.8672,0.1907
+DEMO_00648,3,1,9.5,3.3,1,Demo Connect,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,1.0,9.5,0.299,2.84,3,0,0.069,-0.6298,-0.4746
+DEMO_00649,22,6,92.39,37.9,3,Demo Plus,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,39.7,15.4,0.158,2.44,2,0,0.13,0.8703,0.7462
+DEMO_00650,10,2,29.16,14.1,2,Demo Flex,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,15.5,14.58,0.142,2.07,3,0,0.141,-0.4186,-1.127
+DEMO_00651,21,3,19.56,11.0,1,Demo Start,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,9.6,6.52,0.272,1.77,3,0,0.0929,-0.6798,-0.837
+DEMO_00652,15,4,24.12,3.5,2,Demo Connect,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,1.0,6.03,1.13,6.82,3,0,0.0882,-0.3051,-0.6345
+DEMO_00653,25,6,85.82,36.0,3,Demo Max,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,34.9,14.3,0.167,2.38,2,0,0.1214,1.2968,-0.1626
+DEMO_00654,17,2,16.88,2.1,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Nouveaux clients,Faible valeur,6.2,8.44,0.963,8.13,3,1,0.1002,-1.29,-0.5932
+DEMO_00655,14,8,133.55,46.8,1,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,45.0,16.69,0.171,2.86,0,0,0.0837,1.9405,0.0839
+DEMO_00656,9,6,54.26,17.8,3,Demo Flex,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,16.2,9.04,0.337,3.04,2,0,0.1648,0.7454,-0.4211
+DEMO_00657,3,3,52.54,37.1,2,Demo Flex,5,2,3,523,10,3.1,Client moyen,Clients prometteurs,Valeur moyenne,35.1,17.51,0.081,1.42,3,0,0.0728,0.6103,1.4799
+DEMO_00658,3,6,75.53,29.3,4,Demo Flex,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,31.7,12.59,0.205,2.58,0,0,0.0429,1.0033,0.4501
+DEMO_00659,6,10,116.86,63.1,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,62.6,11.69,0.159,1.85,0,0,0.0623,1.9166,0.4328
+DEMO_00660,37,3,24.36,28.8,3,Demo Plus,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,27.6,8.12,0.104,0.85,1,1,0.1631,-0.7436,0.7562
+DEMO_00661,8,7,79.34,45.7,1,Demo Connect,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,48.6,11.33,0.153,1.74,0,0,0.065,1.3034,1.5808
+DEMO_00662,12,3,57.67,15.2,2,Demo Max,4,2,4,424,10,3.4,Client moyen,Clients prometteurs,Valeur moyenne,16.4,19.22,0.197,3.79,3,0,0.1346,-0.1051,1.0061
+DEMO_00663,12,1,9.68,6.3,3,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,4.5,9.68,0.158,1.53,3,1,0.1745,-1.1181,-0.2519
+DEMO_00664,15,7,93.51,40.6,1,Demo Max,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,38.1,13.36,0.173,2.3,0,0,0.0873,1.4394,-0.091
+DEMO_00665,32,2,20.46,6.2,1,Demo Max,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,8.5,10.23,0.324,3.31,3,0,0.1929,-1.2419,-0.3764
+DEMO_00666,17,9,96.14,35.8,2,Demo Flex,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,35.8,10.68,0.252,2.69,0,0,0.2015,1.3366,0.8224
+DEMO_00667,43,4,102.94,10.0,3,Demo Max,2,3,5,235,10,3.8,Client moyen,Clients à risque,Forte valeur,6.9,25.74,0.399,10.26,1,0,0.3263,0.3836,-0.6753
+DEMO_00668,6,8,154.53,27.0,1,Demo Connect,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,23.4,19.32,0.297,5.73,0,0,0.1076,2.1748,0.2663
+DEMO_00669,39,10,104.19,63.8,3,Demo Connect,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,61.5,10.42,0.157,1.63,1,0,0.1231,0.7561,0.92
+DEMO_00670,62,7,78.56,34.1,1,Demo Plus,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,31.6,11.22,0.205,2.3,1,1,0.176,0.2974,0.3909
+DEMO_00671,22,1,6.78,19.6,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,15.5,6.78,0.051,0.35,3,0,0.2249,-1.8113,-0.974
+DEMO_00672,8,10,90.69,29.7,1,Demo Max,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,27.5,9.07,0.336,3.05,0,0,0.0799,0.9712,-0.7008
+DEMO_00673,33,4,47.3,15.6,3,Demo Max,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,13.8,11.82,0.256,3.03,3,0,0.138,-0.1422,-0.3356
+DEMO_00674,22,9,143.32,72.0,1,Demo Max,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,71.1,15.92,0.125,1.99,2,0,0.0664,1.9814,1.6128
+DEMO_00675,29,2,30.12,13.3,2,Demo Connect,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,16.7,15.06,0.15,2.26,3,0,0.1181,-0.6258,-0.8268
+DEMO_00676,44,5,27.09,21.1,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,20.5,5.42,0.237,1.29,1,0,0.2877,-0.4223,-0.4053
+DEMO_00677,16,6,102.42,32.2,3,Demo Plus,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,31.9,17.07,0.186,3.18,0,0,0.1265,0.9675,0.3847
+DEMO_00678,14,2,19.0,28.4,2,Demo Connect,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,29.4,9.5,0.07,0.67,3,0,0.1158,-1.2874,0.4152
+DEMO_00679,120,8,46.37,30.4,1,Demo Connect,1,5,3,153,9,3.2,Client moyen,Ne doit pas les perdre,Valeur moyenne,30.0,5.8,0.263,1.52,1,0,0.6013,-1.8239,-0.0163
+DEMO_00680,33,2,41.6,15.9,1,Demo Plus,2,1,3,213,6,2.2,Client à risque,Clients hibernants,Valeur moyenne,16.7,20.8,0.126,2.62,3,0,0.1436,-0.2696,0.2044
+DEMO_00681,49,2,44.61,19.1,1,Demo Start,1,1,3,113,5,2.0,Client à risque,Clients hibernants,Valeur moyenne,19.6,22.3,0.105,2.34,1,0,0.1136,-0.6481,-0.1318
+DEMO_00682,42,7,80.72,39.5,1,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,39.7,11.53,0.177,2.05,1,0,0.0911,0.9723,1.0827
+DEMO_00683,50,3,44.19,38.3,2,Demo Plus,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,43.8,14.73,0.078,1.15,1,0,0.1599,-0.9999,0.3662
+DEMO_00684,29,5,76.06,28.8,2,Demo Max,2,3,4,234,9,3.3,Client moyen,Clients à risque,Forte valeur,30.7,15.21,0.173,2.64,3,0,0.097,0.6973,1.0456
+DEMO_00685,45,8,171.93,49.1,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,47.0,21.49,0.163,3.5,1,1,0.1745,0.7657,1.3202
+DEMO_00686,12,10,148.86,40.4,2,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,41.1,14.89,0.248,3.68,0,0,0.1061,1.8197,0.0589
+DEMO_00687,3,8,38.44,37.6,1,Demo Max,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,36.0,4.81,0.213,1.02,2,0,0.0617,0.876,0.156
+DEMO_00688,9,1,30.13,6.1,1,Demo Max,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,7.0,30.13,0.165,4.96,3,0,0.2138,-0.3992,-0.3851
+DEMO_00689,20,4,71.69,28.6,1,Demo Max,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,25.9,17.92,0.14,2.51,0,0,0.0829,0.9741,0.5359
+DEMO_00690,17,1,7.54,25.4,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,23.2,7.54,0.039,0.3,3,0,0.1213,-1.9612,0.9086
+DEMO_00691,22,7,39.63,52.9,2,Demo Plus,3,4,3,343,10,3.3,Client fidèle,Clients fidèles,Valeur moyenne,53.6,5.66,0.132,0.75,2,0,0.0891,0.0329,0.4876
+DEMO_00692,11,2,26.33,1.1,1,Demo Plus,4,1,2,412,7,2.1,Client moyen,Nouveaux clients,Faible valeur,3.1,13.17,1.811,23.85,3,1,0.1964,-0.9379,-0.6091
+DEMO_00693,2,3,25.68,20.3,1,Demo Connect,5,2,2,522,9,2.6,Client moyen,Clients prometteurs,Faible valeur,21.3,8.56,0.148,1.27,3,0,0.0874,-0.5318,-0.972
+DEMO_00694,16,10,119.59,24.1,1,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,25.8,11.96,0.415,4.96,0,0,0.1011,2.6542,-0.6124
+DEMO_00695,5,2,30.02,9.9,2,Demo Max,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,10.7,15.01,0.201,3.02,3,0,0.0522,-0.125,0.2556
+DEMO_00696,22,1,7.3,11.5,1,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,11.8,7.3,0.087,0.64,3,1,0.1113,-1.5884,-0.8661
+DEMO_00697,31,15,80.98,53.0,1,Demo Connect,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,52.0,5.4,0.283,1.53,2,0,0.1526,2.007,-0.413
+DEMO_00698,15,5,61.66,30.4,1,Demo Plus,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,32.0,12.33,0.165,2.03,3,0,0.0412,0.5061,0.3481
+DEMO_00699,7,12,89.26,63.9,1,Demo Plus,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,65.9,7.44,0.188,1.4,0,0,0.0922,2.364,1.7288
+DEMO_00700,23,3,32.43,20.0,1,Demo Flex,3,2,2,322,7,2.2,Client moyen,Clients à développer,Valeur moyenne,19.9,10.81,0.15,1.62,3,0,0.1672,-0.6816,0.1154
+DEMO_00701,124,5,23.82,7.4,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,7.1,4.76,0.678,3.23,1,1,0.6249,-2.4199,-1.6693
+DEMO_00702,33,3,26.05,18.1,2,Demo Max,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,21.3,8.68,0.165,1.44,3,0,0.1273,-1.1076,-0.8761
+DEMO_00703,35,2,29.56,16.0,1,Demo Plus,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,16.0,14.78,0.125,1.84,3,1,0.3595,-1.1257,-0.0725
+DEMO_00704,14,7,97.43,34.8,2,Demo Connect,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,35.0,13.92,0.201,2.8,0,0,0.1535,1.2609,-0.2735
+DEMO_00705,10,5,32.33,34.0,2,Demo Flex,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Valeur moyenne,34.9,6.47,0.147,0.95,3,0,0.0804,-0.2175,0.4765
+DEMO_00706,50,6,31.48,31.3,1,Demo Start,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,31.1,5.25,0.192,1.01,1,1,0.2163,-0.4339,0.2818
+DEMO_00707,1,15,150.92,72.0,2,Demo Flex,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,70.4,10.06,0.208,2.1,0,0,0.0305,3.2676,0.9643
+DEMO_00708,11,8,108.64,47.4,1,Demo Flex,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,48.2,13.58,0.169,2.29,0,0,0.076,1.4874,1.558
+DEMO_00709,72,2,24.93,12.1,2,Demo Max,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Faible valeur,12.0,12.46,0.165,2.06,1,0,0.322,-2.0831,-0.0324
+DEMO_00710,20,11,82.78,41.2,2,Demo Start,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,44.9,7.53,0.267,2.01,0,0,0.088,1.6773,0.7026
+DEMO_00711,4,4,47.0,23.1,2,Demo Start,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,24.7,11.75,0.173,2.04,3,0,0.1696,0.1527,0.426
+DEMO_00712,31,5,113.95,19.7,1,Demo Max,2,3,5,235,10,3.8,Client moyen,Clients à risque,Forte valeur,18.5,22.79,0.254,5.8,3,0,0.1503,0.736,-0.3129
+DEMO_00713,15,4,44.66,51.0,2,Demo Plus,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,52.4,11.17,0.078,0.88,3,0,0.0543,0.4574,1.2117
+DEMO_00714,3,1,4.06,11.5,1,Demo Connect,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,12.1,4.06,0.087,0.35,3,0,0.0587,-2.4839,-0.3602
+DEMO_00715,27,6,66.92,39.6,1,Demo Plus,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,42.2,11.15,0.152,1.69,2,0,0.122,1.2841,0.881
+DEMO_00716,24,11,337.67,35.8,1,Demo Max,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,34.8,30.7,0.307,9.42,2,0,0.0752,2.7368,-0.3825
+DEMO_00717,22,5,24.57,11.4,1,Demo Plus,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Faible valeur,11.7,4.91,0.44,2.16,3,0,0.1516,-0.2435,0.1479
+DEMO_00718,33,2,20.28,5.9,2,Demo Max,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,5.7,10.14,0.34,3.45,3,0,0.1074,-1.4953,-0.921
+DEMO_00719,7,6,52.84,21.4,3,Demo Start,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,21.6,8.81,0.28,2.47,2,0,0.1126,1.1056,-0.1655
+DEMO_00720,29,3,31.54,1.0,1,Demo Plus,2,2,2,222,6,2.0,Client à risque,Nouveaux clients,Valeur moyenne,1.0,10.51,3.0,31.54,3,1,0.1224,-0.6771,-1.0125
+DEMO_00721,25,8,88.79,44.1,1,Demo Start,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Forte valeur,45.2,11.1,0.182,2.01,2,0,0.105,0.9819,0.3831
+DEMO_00722,49,6,112.03,28.5,2,Demo Max,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,29.4,18.67,0.21,3.93,1,0,0.1835,0.3335,1.0436
+DEMO_00723,11,13,135.85,52.0,3,Demo Plus,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,54.5,10.45,0.25,2.61,0,0,0.129,2.4681,0.2592
+DEMO_00724,55,11,221.49,27.3,2,Demo Flex,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,27.3,20.14,0.403,8.11,1,0,0.2358,1.9553,-0.6204
+DEMO_00725,41,10,93.49,54.0,1,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,53.2,9.35,0.185,1.73,1,1,0.2685,1.2498,0.5489
+DEMO_00726,20,3,24.68,14.9,1,Demo Max,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,16.4,8.23,0.202,1.66,3,0,0.1655,-0.6751,-0.2513
+DEMO_00727,22,7,48.32,31.2,2,Demo Max,3,4,3,343,10,3.3,Client fidèle,Clients fidèles,Valeur moyenne,29.7,6.9,0.224,1.55,2,0,0.1916,0.2478,0.0466
+DEMO_00728,1,6,22.03,17.2,1,Demo Start,5,4,2,542,11,3.2,Client fidèle,Champions,Faible valeur,19.4,3.67,0.348,1.28,2,0,0.0711,-0.1783,-0.9601
+DEMO_00729,22,3,34.82,21.0,3,Demo Start,3,2,2,322,7,2.2,Client moyen,Clients à développer,Valeur moyenne,23.2,11.61,0.143,1.66,3,0,0.152,-0.5823,-0.1776
+DEMO_00730,39,6,185.2,24.1,3,Demo Plus,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,26.6,30.87,0.249,7.7,1,1,0.2674,1.3063,0.1336
+DEMO_00731,17,4,51.33,28.5,3,Demo Max,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,29.2,12.83,0.14,1.8,3,1,0.154,0.3848,0.7228
+DEMO_00732,49,4,58.21,13.4,1,Demo Connect,1,3,4,134,8,3.1,Client moyen,Clients à risque,Valeur moyenne,12.4,14.55,0.298,4.34,1,0,0.29,-0.0599,-0.4242
+DEMO_00733,32,2,15.89,30.3,2,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,30.5,7.95,0.066,0.52,3,0,0.1401,-1.4031,0.569
+DEMO_00734,87,6,52.32,23.3,2,Demo Flex,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,24.0,8.72,0.258,2.25,1,1,0.4106,-0.686,-0.3393
+DEMO_00735,12,6,102.85,7.7,1,Demo Flex,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,6.6,17.14,0.776,13.3,0,0,0.1692,1.1049,-1.1204
+DEMO_00736,36,1,30.11,5.1,1,Demo Max,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,7.8,30.11,0.196,5.89,1,0,0.3496,-1.747,-0.9362
+DEMO_00737,5,5,113.05,44.2,1,Demo Max,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,45.3,22.61,0.113,2.56,0,0,0.0533,1.1249,0.1858
+DEMO_00738,19,5,77.66,20.3,1,Demo Connect,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,18.5,15.53,0.246,3.82,0,0,0.0864,0.5038,-0.5317
+DEMO_00739,33,6,61.01,7.0,3,Demo Max,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,10.8,10.17,0.852,8.66,2,0,0.1249,-0.0369,-0.5193
+DEMO_00740,38,11,123.13,59.3,3,Demo Flex,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,59.5,11.19,0.186,2.08,1,0,0.1606,1.4451,0.8005
+DEMO_00741,16,9,59.31,32.2,1,Demo Plus,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,30.1,6.59,0.279,1.84,2,1,0.0621,1.1639,-0.2143
+DEMO_00742,53,8,35.98,28.0,1,Demo Flex,1,5,2,152,8,2.7,Client moyen,Ne doit pas les perdre,Valeur moyenne,26.3,4.5,0.286,1.28,1,1,0.287,-0.5498,-0.3203
+DEMO_00743,61,4,21.47,12.5,1,Demo Connect,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,15.5,5.37,0.319,1.71,1,0,0.3641,-1.6394,0.0845
+DEMO_00744,12,6,61.51,7.6,1,Demo Connect,4,4,4,444,12,4.0,Champion,Champions,Valeur moyenne,11.3,10.25,0.785,8.05,2,0,0.0875,1.2738,-1.3163
+DEMO_00745,19,2,16.99,25.5,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,27.5,8.49,0.079,0.67,3,1,0.2244,-1.6759,0.4432
+DEMO_00746,17,4,17.78,22.3,2,Demo Flex,4,3,1,431,8,2.2,Client fidèle,Clients à risque,Faible valeur,25.0,4.45,0.179,0.8,3,0,0.0629,-0.7821,-0.0544
+DEMO_00747,14,5,48.86,10.1,2,Demo Start,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,12.5,9.77,0.497,4.86,3,1,0.2143,-0.0681,-0.6579
+DEMO_00748,59,3,25.12,9.8,2,Demo Flex,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,10.9,8.37,0.307,2.57,1,1,0.3396,-1.6396,-0.3943
+DEMO_00749,58,2,10.47,9.4,3,Demo Plus,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,10.0,5.23,0.213,1.11,1,0,0.1543,-2.2971,-0.3979
+DEMO_00750,18,3,24.41,9.1,1,Demo Max,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,10.2,8.14,0.329,2.67,3,0,0.2417,-0.9822,-0.1774
+DEMO_00751,36,5,41.8,14.5,2,Demo Plus,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,16.0,8.36,0.345,2.88,3,0,0.2548,-0.0066,-0.4964
+DEMO_00752,49,4,28.42,28.0,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,26.5,7.11,0.143,1.01,1,1,0.1849,-0.4494,1.0238
+DEMO_00753,27,3,49.81,31.0,1,Demo Start,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,32.5,16.6,0.097,1.61,3,0,0.093,0.074,0.497
+DEMO_00754,17,4,14.01,22.0,1,Demo Start,4,3,1,431,8,2.2,Client fidèle,Clients à risque,Faible valeur,24.9,3.5,0.182,0.64,3,0,0.0593,-0.5366,-0.8041
+DEMO_00755,11,2,6.69,24.7,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,24.3,3.35,0.081,0.27,3,0,0.2574,-2.1644,0.5713
+DEMO_00756,39,8,79.94,32.0,1,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,31.3,9.99,0.25,2.5,1,1,0.1091,0.6892,0.2032
+DEMO_00757,6,1,10.52,3.9,1,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,4.9,10.52,0.254,2.67,3,0,0.0707,-1.2421,-0.5621
+DEMO_00758,17,6,74.74,26.0,1,Demo Flex,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,24.7,12.46,0.231,2.88,0,0,0.1168,1.0995,-0.1688
+DEMO_00759,15,7,51.91,48.7,3,Demo Flex,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,46.1,7.42,0.144,1.07,2,0,0.0393,1.3169,-0.053
+DEMO_00760,5,5,30.1,19.9,1,Demo Plus,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,22.2,6.02,0.251,1.51,3,0,0.057,0.4737,-1.1081
+DEMO_00761,20,15,149.01,43.1,1,Demo Max,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,42.2,9.93,0.348,3.46,0,0,0.1276,3.1036,0.592
+DEMO_00762,19,2,15.65,20.2,4,Demo Max,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,20.2,7.82,0.099,0.77,3,1,0.1556,-0.2521,-0.1881
+DEMO_00763,9,10,234.08,33.3,2,Demo Start,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,32.1,23.41,0.3,7.03,0,0,0.064,2.5991,0.3253
+DEMO_00764,57,2,16.69,27.7,1,Demo Max,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,30.2,8.35,0.072,0.6,1,1,0.2746,-1.9416,-0.302
+DEMO_00765,39,1,9.69,9.3,3,Demo Flex,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,11.0,9.69,0.108,1.05,1,0,0.1985,-2.0298,-0.8018
+DEMO_00766,23,2,77.84,11.1,1,Demo Max,3,1,4,314,8,2.9,Client moyen,Clients à développer,Forte valeur,10.6,38.92,0.181,7.03,3,0,0.1502,-0.2542,-0.0404
+DEMO_00767,44,4,35.84,54.0,1,Demo Flex,2,3,2,232,7,2.3,Client moyen,Clients à risque,Valeur moyenne,51.7,8.96,0.074,0.66,1,1,0.1167,-0.6143,1.3932
+DEMO_00768,51,5,67.72,37.8,1,Demo Start,1,3,4,134,8,3.1,Client moyen,Clients à risque,Forte valeur,37.1,13.54,0.132,1.79,1,0,0.1668,-0.6977,0.8345
+DEMO_00769,59,5,71.16,21.1,1,Demo Flex,1,3,4,134,8,3.1,Client moyen,Clients à risque,Forte valeur,22.3,14.23,0.237,3.37,1,1,0.2212,-0.379,-0.1839
+DEMO_00770,12,1,14.91,19.3,2,Demo Start,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,19.7,14.91,0.052,0.77,3,1,0.0883,-1.283,0.0385
+DEMO_00771,44,6,70.17,12.6,1,Demo Connect,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,12.8,11.7,0.476,5.57,1,0,0.2984,0.58,-0.9759
+DEMO_00772,19,7,77.67,29.2,2,Demo Plus,4,4,4,444,12,4.0,Champion,Champions,Forte valeur,29.6,11.1,0.24,2.66,0,0,0.1409,1.3486,-0.5413
+DEMO_00773,26,1,10.54,13.4,2,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,14.9,10.54,0.075,0.79,3,0,0.1204,-2.1259,0.4922
+DEMO_00774,12,4,29.06,17.6,4,Demo Plus,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,17.5,7.27,0.227,1.65,3,0,0.0648,0.504,0.4634
+DEMO_00775,22,1,11.93,14.5,1,Demo Plus,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,15.4,11.93,0.069,0.82,3,0,0.1463,-1.5584,-0.5582
+DEMO_00776,44,12,365.28,36.4,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,34.4,30.44,0.33,10.04,1,1,0.335,2.6941,-0.6606
+DEMO_00777,20,6,116.47,20.5,3,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,25.6,19.41,0.292,5.67,0,0,0.0776,0.5442,-0.4597
+DEMO_00778,9,5,58.94,24.8,2,Demo Max,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Valeur moyenne,24.3,11.79,0.201,2.37,3,0,0.0842,0.3656,0.147
+DEMO_00779,77,2,31.94,9.4,1,Demo Connect,1,1,2,112,4,1.5,Client à risque,Clients hibernants,Valeur moyenne,9.8,15.97,0.212,3.39,1,1,0.4419,-1.3255,-0.5042
+DEMO_00780,11,2,12.37,14.4,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,15.5,6.18,0.139,0.86,3,0,0.1103,-1.158,0.0321
+DEMO_00781,3,9,77.78,25.2,2,Demo Max,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,24.4,8.64,0.357,3.09,0,1,0.0595,1.617,-0.4063
+DEMO_00782,13,1,16.8,6.2,2,Demo Connect,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,6.2,16.8,0.162,2.72,3,0,0.2114,-1.0973,-0.5244
+DEMO_00783,50,5,113.0,19.5,2,Demo Plus,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,19.5,22.6,0.256,5.79,1,0,0.2676,-0.1362,0.8339
+DEMO_00784,11,5,32.64,22.5,3,Demo Flex,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Valeur moyenne,20.6,6.53,0.222,1.45,3,0,0.1329,0.0356,-0.3518
+DEMO_00785,7,2,15.29,8.5,1,Demo Plus,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,9.4,7.64,0.236,1.8,3,0,0.1385,-0.4758,0.2724
+DEMO_00786,24,8,264.86,42.0,1,Demo Plus,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,38.7,33.11,0.191,6.31,2,0,0.147,2.4315,1.139
+DEMO_00787,70,7,73.62,28.3,2,Demo Start,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,31.8,10.52,0.248,2.6,1,1,0.4731,-0.0853,0.1823
+DEMO_00788,32,2,54.38,20.4,3,Demo Start,2,1,3,213,6,2.2,Client à risque,Clients hibernants,Valeur moyenne,22.0,27.19,0.098,2.66,3,1,0.2774,0.1398,-0.7802
+DEMO_00789,6,7,78.23,13.6,1,Demo Max,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,14.9,11.18,0.513,5.73,0,0,0.2148,0.7725,-0.7062
+DEMO_00790,96,1,11.42,6.0,2,Demo Flex,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,2.5,11.42,0.167,1.91,1,1,0.7065,-3.3834,-0.7142
+DEMO_00791,29,6,50.59,40.0,1,Demo Start,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,38.4,8.43,0.15,1.26,2,0,0.0934,0.8968,0.6054
+DEMO_00792,46,1,16.75,16.5,1,Demo Connect,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,19.3,16.75,0.061,1.02,1,0,0.3302,-1.5908,-0.4761
+DEMO_00793,4,4,84.19,7.4,3,Demo Plus,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Forte valeur,15.7,21.05,0.542,11.41,0,0,0.1284,0.7057,-0.3733
+DEMO_00794,85,4,22.58,13.4,1,Demo Plus,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,15.8,5.64,0.299,1.69,1,1,0.6629,-1.8193,0.0058
+DEMO_00795,16,5,41.08,30.2,1,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,32.3,8.22,0.166,1.36,3,0,0.0671,-0.1222,0.7671
+DEMO_00796,4,9,148.49,26.5,2,Demo Connect,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,27.5,16.5,0.34,5.61,0,1,0.0908,2.2092,-0.4981
+DEMO_00797,27,4,37.15,10.1,1,Demo Max,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,8.4,9.29,0.396,3.68,3,0,0.1207,-0.2242,-1.065
+DEMO_00798,46,7,53.23,44.4,1,Demo Plus,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,46.3,7.6,0.158,1.2,1,0,0.2022,0.1445,0.8556
+DEMO_00799,36,5,86.89,7.3,2,Demo Start,2,3,4,234,9,3.3,Client moyen,Clients à risque,Forte valeur,5.1,17.38,0.686,11.92,3,0,0.1767,-0.0023,-0.0259
+DEMO_00800,35,9,164.7,49.9,1,Demo Plus,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,47.5,18.3,0.18,3.3,2,0,0.1478,1.6989,0.7864
+DEMO_00801,34,9,70.1,25.7,2,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,23.2,7.79,0.35,2.72,2,0,0.0823,0.742,-0.1557
+DEMO_00802,25,2,22.42,17.4,1,Demo Plus,3,1,2,312,6,1.9,Client moyen,Clients à développer,Faible valeur,19.3,11.21,0.115,1.29,3,0,0.2046,-1.3436,-0.1611
+DEMO_00803,4,3,15.39,19.1,1,Demo Flex,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,19.0,5.13,0.157,0.81,3,1,0.0978,-0.3072,-0.3016
+DEMO_00804,19,5,30.48,23.9,2,Demo Start,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Faible valeur,24.1,6.1,0.209,1.28,3,0,0.1202,0.6205,0.2453
+DEMO_00805,16,4,42.72,31.7,1,Demo Plus,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,31.6,10.68,0.126,1.35,3,0,0.2166,0.6953,0.3595
+DEMO_00806,59,3,30.44,5.1,3,Demo Plus,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,2.8,10.15,0.593,6.02,1,0,0.2846,-1.0004,-0.5405
+DEMO_00807,50,3,17.58,13.0,3,Demo Max,1,2,1,121,4,1.3,Client à risque,Clients hibernants,Faible valeur,11.7,5.86,0.23,1.35,1,1,0.2845,-1.5876,-0.1252
+DEMO_00808,15,8,53.82,23.4,3,Demo Max,4,5,3,453,12,3.8,Client fidèle,Champions,Valeur moyenne,22.1,6.73,0.342,2.3,2,0,0.1012,0.875,-0.2132
+DEMO_00809,41,8,44.42,45.4,1,Demo Connect,2,5,3,253,10,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,42.6,5.55,0.176,0.98,1,0,0.1569,0.393,0.8967
+DEMO_00810,21,5,64.05,44.3,1,Demo Connect,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,43.3,12.81,0.113,1.44,3,0,0.2311,0.2831,0.51
+DEMO_00811,3,6,20.28,56.0,3,Demo Flex,5,4,1,541,10,2.7,Client fidèle,Champions,Faible valeur,53.9,3.38,0.107,0.36,2,0,0.0588,0.4406,0.9238
+DEMO_00812,1,8,45.74,43.1,1,Demo Start,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,44.2,5.72,0.186,1.06,2,0,0.046,0.3052,0.5206
+DEMO_00813,37,2,7.16,12.3,2,Demo Connect,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,13.6,3.58,0.162,0.58,1,0,0.3764,-2.2226,-0.2967
+DEMO_00814,8,6,75.36,22.4,2,Demo Connect,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,19.8,12.56,0.268,3.36,0,0,0.0766,1.2568,-0.4519
+DEMO_00815,8,6,22.2,43.2,1,Demo Connect,5,4,2,542,11,3.2,Client fidèle,Champions,Faible valeur,42.6,3.7,0.139,0.51,2,0,0.0362,-0.3258,0.8525
+DEMO_00816,12,3,30.45,40.7,1,Demo Plus,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,44.4,10.15,0.074,0.75,3,0,0.0644,-0.4196,1.3326
+DEMO_00817,38,6,147.45,19.7,2,Demo Start,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,17.8,24.58,0.304,7.47,1,0,0.1082,1.1871,0.194
+DEMO_00818,50,13,325.49,31.1,2,Demo Flex,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,32.0,25.04,0.418,10.46,1,0,0.0939,3.0943,0.1302
+DEMO_00819,49,6,22.16,16.4,1,Demo Plus,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Faible valeur,16.6,3.69,0.366,1.35,1,1,0.2016,-1.2628,-1.0854
+DEMO_00820,3,4,47.01,6.8,2,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,9.0,11.75,0.588,6.91,3,0,0.0913,-0.1305,-1.2633
+DEMO_00821,11,7,40.53,20.9,2,Demo Plus,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,21.5,5.79,0.335,1.94,2,0,0.1488,0.2348,-0.5147
+DEMO_00822,9,6,31.05,20.1,1,Demo Max,5,4,2,542,11,3.2,Client fidèle,Champions,Faible valeur,19.2,5.17,0.299,1.55,2,0,0.1187,-0.3238,-0.2883
+DEMO_00823,38,7,65.6,15.9,1,Demo Plus,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,16.0,9.37,0.441,4.14,1,0,0.2192,-0.047,-0.725
+DEMO_00824,11,7,137.2,31.7,2,Demo Flex,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,31.9,19.6,0.221,4.32,0,0,0.0584,1.2388,-0.1337
+DEMO_00825,20,4,55.48,19.3,2,Demo Max,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Valeur moyenne,19.1,13.87,0.207,2.88,3,0,0.1743,0.6022,-0.3007
+DEMO_00826,40,7,47.11,29.0,3,Demo Max,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,26.4,6.73,0.241,1.62,1,1,0.2748,0.0329,0.2077
+DEMO_00827,23,7,102.89,36.0,1,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,38.5,14.7,0.195,2.86,2,0,0.1262,1.1261,-0.2878
+DEMO_00828,29,14,40.65,72.0,3,Demo Connect,2,5,3,253,10,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,72.0,2.9,0.194,0.56,2,0,0.0968,1.0457,2.3378
+DEMO_00829,19,3,19.78,21.2,2,Demo Plus,4,2,1,421,7,1.9,Client moyen,Clients prometteurs,Faible valeur,19.1,6.59,0.142,0.93,3,0,0.0745,-0.6062,0.0304
+DEMO_00830,46,7,44.38,45.8,2,Demo Plus,1,4,3,143,8,2.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,45.1,6.34,0.153,0.97,1,0,0.2439,0.6353,1.2348
+DEMO_00831,50,10,104.13,26.2,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,25.8,10.41,0.382,3.97,1,1,0.3604,0.8067,-0.697
+DEMO_00832,34,1,8.92,27.2,1,Demo Plus,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,24.9,8.92,0.037,0.33,3,0,0.2022,-1.4487,0.7548
+DEMO_00833,50,3,27.68,21.3,1,Demo Flex,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,17.6,9.23,0.141,1.3,1,0,0.195,-1.0066,0.0749
+DEMO_00834,119,4,36.24,24.8,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Valeur moyenne,23.4,9.06,0.162,1.46,1,0,0.6205,-2.0329,0.4744
+DEMO_00835,40,4,40.39,19.4,1,Demo Connect,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,18.7,10.1,0.206,2.08,1,0,0.1647,-0.3282,-0.2475
+DEMO_00836,22,7,93.97,41.0,3,Demo Start,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,38.2,13.42,0.171,2.29,2,0,0.0859,1.2042,1.2428
+DEMO_00837,30,2,21.66,13.4,1,Demo Connect,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,13.8,10.83,0.149,1.62,3,0,0.2212,-0.4669,-0.9099
+DEMO_00838,54,2,17.06,6.7,3,Demo Max,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,9.1,8.53,0.296,2.53,1,0,0.3247,-1.5778,-0.1182
+DEMO_00839,16,5,62.2,15.5,1,Demo Start,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Valeur moyenne,17.2,12.44,0.323,4.01,3,0,0.1676,0.6966,-0.3841
+DEMO_00840,14,5,78.56,14.3,2,Demo Max,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,14.1,15.71,0.349,5.48,0,0,0.1295,0.5754,-0.9492
+DEMO_00841,29,4,29.38,15.5,1,Demo Plus,2,3,2,232,7,2.3,Client moyen,Clients à risque,Faible valeur,11.8,7.35,0.258,1.9,3,0,0.1133,-0.2389,0.5393
+DEMO_00842,21,3,28.96,20.6,2,Demo Connect,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,22.0,9.65,0.146,1.41,3,0,0.1077,-0.894,0.8274
+DEMO_00843,9,3,56.69,15.5,1,Demo Flex,5,2,4,524,11,3.6,Client moyen,Clients prometteurs,Valeur moyenne,15.8,18.9,0.193,3.65,3,0,0.0829,0.2584,-1.1719
+DEMO_00844,26,2,10.88,20.4,3,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,21.3,5.44,0.098,0.53,3,0,0.1412,-0.5807,0.1647
+DEMO_00845,62,7,188.39,15.6,1,Demo Plus,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,19.4,26.91,0.45,12.1,1,1,0.4765,0.0198,-0.3139
+DEMO_00846,33,8,38.2,29.4,1,Demo Connect,2,5,3,253,10,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,27.8,4.78,0.272,1.3,2,0,0.2812,0.3576,0.1082
+DEMO_00847,7,14,115.48,72.0,3,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,66.3,8.25,0.194,1.6,0,0,0.0684,2.7514,1.9653
+DEMO_00848,37,6,35.49,25.9,1,Demo Max,2,4,2,242,8,2.6,Client moyen,Ne doit pas les perdre,Valeur moyenne,23.8,5.91,0.232,1.37,1,1,0.1709,-0.2706,0.5314
+DEMO_00849,18,6,199.36,16.0,2,Demo Plus,4,4,5,445,13,4.5,Champion,Champions,Forte valeur,17.0,33.23,0.375,12.44,0,0,0.0664,1.5356,-0.3925
+DEMO_00850,93,1,7.56,2.6,1,Demo Plus,1,1,1,111,3,1.0,Client à risque,Nouveaux clients,Faible valeur,2.6,7.56,0.386,2.92,1,0,0.5908,-3.2564,0.3858
+DEMO_00851,35,8,60.58,65.1,1,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,62.6,7.57,0.123,0.93,2,0,0.0772,0.5336,1.9771
+DEMO_00852,13,3,24.4,26.8,2,Demo Max,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,24.0,8.13,0.112,0.91,3,0,0.1932,-0.468,0.1237
+DEMO_00853,39,5,52.56,20.3,1,Demo Flex,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,19.6,10.51,0.246,2.59,1,0,0.0981,-0.2411,-0.4649
+DEMO_00854,27,5,41.63,2.8,2,Demo Max,3,3,3,333,9,3.0,Client fidèle,Nouveaux clients,Valeur moyenne,1.0,8.33,1.806,15.04,3,0,0.1899,0.6631,-0.4655
+DEMO_00855,58,3,27.81,21.0,1,Demo Max,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,22.0,9.27,0.143,1.32,1,0,0.2074,-1.3628,-0.3428
+DEMO_00856,14,8,16.0,24.6,2,Demo Plus,4,5,1,451,10,2.8,Client fidèle,Champions,Faible valeur,23.8,2.0,0.325,0.65,2,1,0.0954,0.1117,-0.4962
+DEMO_00857,35,3,30.88,15.6,4,Demo Flex,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Faible valeur,14.4,10.29,0.192,1.98,3,0,0.2325,-0.9897,-0.343
+DEMO_00858,4,2,20.14,7.9,1,Demo Plus,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,6.4,10.07,0.253,2.55,3,0,0.1552,-0.3732,-0.3323
+DEMO_00859,25,2,35.32,7.5,1,Demo Connect,3,1,2,312,6,1.9,Client moyen,Clients à développer,Valeur moyenne,8.0,17.66,0.268,4.73,3,0,0.1621,-0.3712,-0.5995
+DEMO_00860,7,12,245.89,65.7,1,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,65.8,20.49,0.183,3.74,0,0,0.0716,3.1137,0.5967
+DEMO_00861,27,7,62.97,24.2,2,Demo Flex,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Valeur moyenne,24.6,9.0,0.29,2.61,2,0,0.0995,0.2811,0.2886
+DEMO_00862,31,8,125.01,15.6,1,Demo Connect,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,16.0,15.63,0.513,8.02,2,0,0.1676,1.0236,-0.9107
+DEMO_00863,34,7,38.09,23.2,2,Demo Flex,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,23.1,5.44,0.301,1.64,2,0,0.2204,0.6836,0.6316
+DEMO_00864,14,2,30.42,22.2,1,Demo Plus,4,1,2,412,7,2.1,Client moyen,Clients prometteurs,Faible valeur,20.1,15.21,0.09,1.37,3,0,0.1317,-0.8211,0.3049
+DEMO_00865,25,4,29.12,7.2,2,Demo Flex,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Faible valeur,5.7,7.28,0.559,4.07,3,0,0.1277,-0.2447,-0.1538
+DEMO_00866,53,7,36.39,39.4,2,Demo Start,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,38.6,5.2,0.178,0.92,1,0,0.1815,-0.6325,0.7532
+DEMO_00867,75,2,18.01,19.9,1,Demo Start,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,24.1,9.01,0.1,0.9,1,0,0.5069,-1.768,0.6548
+DEMO_00868,26,4,86.19,24.4,1,Demo Flex,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,21.7,21.55,0.164,3.53,3,0,0.0888,0.1761,0.3281
+DEMO_00869,54,10,110.18,53.0,1,Demo Flex,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,52.1,11.02,0.189,2.08,1,0,0.1226,0.7558,0.9055
+DEMO_00870,10,4,90.86,8.1,1,Demo Start,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Forte valeur,8.3,22.72,0.494,11.22,0,1,0.1393,0.5128,-0.1884
+DEMO_00871,16,5,33.04,12.9,1,Demo Connect,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Valeur moyenne,12.3,6.61,0.388,2.56,3,0,0.0995,-0.2268,0.5609
+DEMO_00872,29,5,88.74,27.7,3,Demo Plus,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,29.9,17.75,0.18,3.2,3,1,0.0763,0.7025,0.0057
+DEMO_00873,21,5,34.84,38.9,1,Demo Connect,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Valeur moyenne,38.3,6.97,0.128,0.89,3,0,0.178,-0.0568,1.0025
+DEMO_00874,20,1,11.29,14.6,1,Demo Flex,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,14.1,11.29,0.069,0.78,3,0,0.0953,-1.9922,-0.0883
+DEMO_00875,50,3,33.71,15.2,1,Demo Connect,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Valeur moyenne,16.8,11.24,0.198,2.22,1,0,0.2338,-0.9765,-0.0275
+DEMO_00876,9,8,114.81,33.5,1,Demo Flex,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,37.1,14.35,0.239,3.43,0,0,0.0592,1.2447,0.1173
+DEMO_00877,9,9,103.04,72.0,3,Demo Connect,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,72.0,11.45,0.125,1.43,0,0,0.0474,1.9268,0.8053
+DEMO_00878,6,10,66.42,23.7,1,Demo Max,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,23.5,6.64,0.421,2.8,2,0,0.0528,1.8528,-0.6399
+DEMO_00879,29,1,16.19,12.9,1,Demo Start,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,12.8,16.19,0.078,1.26,3,0,0.2377,-1.5154,0.285
+DEMO_00880,18,3,77.56,10.2,1,Demo Plus,4,2,4,424,10,3.4,Client moyen,Clients prometteurs,Forte valeur,10.3,25.85,0.295,7.61,0,0,0.1385,0.418,-0.8297
+DEMO_00881,46,3,21.7,20.6,4,Demo Flex,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,20.9,7.23,0.146,1.06,1,0,0.3103,-0.6473,0.4081
+DEMO_00882,27,8,29.08,37.9,3,Demo Start,3,5,2,352,10,3.1,Client fidèle,Clients fidèles,Faible valeur,36.2,3.64,0.211,0.77,2,0,0.0897,0.0981,0.3815
+DEMO_00883,14,8,105.01,72.0,1,Demo Connect,4,5,5,455,14,4.8,Champion,Champions,Forte valeur,72.0,13.13,0.111,1.46,0,0,0.1458,1.1357,1.7887
+DEMO_00884,12,6,49.88,18.3,2,Demo Start,4,4,3,443,11,3.5,Client fidèle,Champions,Valeur moyenne,18.7,8.31,0.328,2.73,2,1,0.045,0.7556,0.001
+DEMO_00885,20,5,46.4,23.8,2,Demo Connect,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,23.7,9.28,0.21,1.95,3,0,0.0614,-0.2208,0.2508
+DEMO_00886,7,9,121.89,59.3,2,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,56.7,13.54,0.152,2.06,0,0,0.1187,1.8083,1.3783
+DEMO_00887,50,8,62.08,27.4,1,Demo Flex,1,5,4,154,10,3.7,Client moyen,Ne doit pas les perdre,Valeur moyenne,27.6,7.76,0.292,2.26,1,0,0.2456,0.1343,0.2751
+DEMO_00888,17,4,34.41,26.0,2,Demo Connect,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Valeur moyenne,22.2,8.6,0.154,1.32,3,0,0.1257,-0.418,0.2369
+DEMO_00889,5,8,75.52,52.6,2,Demo Plus,5,5,4,554,14,4.5,Champion,Champions,Forte valeur,51.4,9.44,0.152,1.44,0,1,0.0705,1.2754,0.2384
+DEMO_00890,58,4,89.54,24.1,1,Demo Flex,1,3,4,134,8,3.1,Client moyen,Clients à risque,Forte valeur,23.0,22.38,0.166,3.71,1,0,0.3203,0.168,-0.1103
+DEMO_00891,21,4,40.56,10.9,1,Demo Start,3,3,3,333,9,3.0,Client fidèle,Clients à développer,Valeur moyenne,11.4,10.14,0.369,3.74,3,0,0.1528,0.2822,-1.3653
+DEMO_00892,37,11,55.61,46.3,1,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Valeur moyenne,50.0,5.06,0.238,1.2,1,0,0.0857,1.3297,0.6872
+DEMO_00893,14,1,5.17,6.2,1,Demo Flex,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,7.3,5.17,0.162,0.84,3,0,0.1914,-1.975,-0.071
+DEMO_00894,59,6,64.61,41.7,1,Demo Plus,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,44.5,10.77,0.144,1.55,1,0,0.2875,-0.2077,1.095
+DEMO_00895,11,6,32.16,22.5,2,Demo Start,5,4,2,542,11,3.2,Client fidèle,Champions,Valeur moyenne,23.8,5.36,0.266,1.43,2,0,0.1629,-0.6061,0.0095
+DEMO_00896,18,6,25.34,18.4,3,Demo Plus,4,4,2,442,10,3.0,Client fidèle,Champions,Faible valeur,20.7,4.22,0.325,1.37,2,0,0.2208,0.0209,0.0351
+DEMO_00897,3,2,28.3,18.1,1,Demo Start,5,1,2,512,8,2.3,Client moyen,Clients prometteurs,Faible valeur,21.8,14.15,0.11,1.56,3,0,0.1056,-1.2007,-0.7305
+DEMO_00898,58,7,101.74,20.5,1,Demo Flex,1,4,5,145,10,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,19.0,14.53,0.341,4.96,1,1,0.1686,-0.2278,-0.4516
+DEMO_00899,13,3,24.44,16.6,2,Demo Plus,4,2,2,422,8,2.4,Client moyen,Clients prometteurs,Faible valeur,15.0,8.15,0.18,1.47,3,1,0.2183,-0.5925,-0.8246
+DEMO_00900,30,4,46.89,30.0,1,Demo Connect,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,31.3,11.72,0.133,1.56,3,0,0.0947,-0.0651,0.1695
+DEMO_00901,33,3,33.18,17.0,1,Demo Connect,2,2,2,222,6,2.0,Client à risque,Clients hibernants,Valeur moyenne,17.0,11.06,0.176,1.95,3,0,0.199,-0.8283,0.5584
+DEMO_00902,52,1,13.89,4.3,2,Demo Connect,1,1,1,111,3,1.0,Client à risque,Clients hibernants,Faible valeur,4.7,13.89,0.232,3.23,1,0,0.2821,-1.5109,-0.0678
+DEMO_00903,28,1,13.91,22.7,1,Demo Max,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,22.2,13.91,0.044,0.61,3,0,0.1407,-1.443,0.5856
+DEMO_00904,22,4,9.52,4.0,1,Demo Plus,3,3,1,331,7,2.0,Client fidèle,Clients à développer,Faible valeur,2.9,2.38,0.989,2.35,3,0,0.1965,-1.3736,-0.9492
+DEMO_00905,48,7,61.17,22.6,2,Demo Flex,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Valeur moyenne,25.8,8.74,0.31,2.71,1,0,0.2269,0.7024,-0.7557
+DEMO_00906,33,6,79.57,16.4,2,Demo Flex,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,14.2,13.26,0.366,4.85,2,0,0.1957,1.1033,-0.4103
+DEMO_00907,19,7,55.71,39.8,1,Demo Connect,4,4,4,444,12,4.0,Champion,Champions,Valeur moyenne,41.2,7.96,0.176,1.4,2,0,0.0674,0.8615,0.9873
+DEMO_00908,60,4,40.7,19.0,2,Demo Plus,1,3,3,133,7,2.6,Client moyen,Clients à risque,Valeur moyenne,20.0,10.17,0.211,2.15,1,0,0.2735,-1.1166,0.0056
+DEMO_00909,35,8,120.58,36.3,3,Demo Start,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,33.2,15.07,0.22,3.32,2,0,0.1015,1.0023,-0.4851
+DEMO_00910,7,7,73.0,33.8,1,Demo Connect,5,4,4,544,13,4.2,Champion,Champions,Forte valeur,32.2,10.43,0.207,2.16,0,0,0.0686,0.6304,0.2583
+DEMO_00911,68,4,91.44,34.4,2,Demo Flex,1,3,5,135,9,3.6,Client moyen,Clients à risque,Forte valeur,33.1,22.86,0.116,2.66,1,0,0.2885,-0.3342,-0.3273
+DEMO_00912,14,4,74.15,19.4,1,Demo Start,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,20.6,18.54,0.206,3.82,0,1,0.2182,0.1532,0.2044
+DEMO_00913,51,7,65.41,23.5,1,Demo Flex,1,4,4,144,9,3.4,Client moyen,Ne doit pas les perdre,Forte valeur,22.8,9.34,0.297,2.78,1,0,0.2029,0.0901,-0.5751
+DEMO_00914,5,4,35.78,29.5,1,Demo Start,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Valeur moyenne,29.3,8.94,0.136,1.21,3,0,0.0324,0.1754,-0.2429
+DEMO_00915,48,4,8.32,24.0,1,Demo Max,1,3,1,131,5,1.6,Client moyen,Clients à risque,Faible valeur,21.1,2.08,0.167,0.35,1,1,0.3434,-2.5707,0.4225
+DEMO_00916,7,6,50.01,19.0,1,Demo Plus,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,23.6,8.33,0.316,2.63,2,0,0.1059,0.2069,-0.123
+DEMO_00917,27,6,28.43,11.6,2,Demo Plus,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Faible valeur,11.8,4.74,0.516,2.44,2,1,0.1427,-0.3744,-0.6099
+DEMO_00918,34,2,22.53,22.8,1,Demo Plus,2,1,2,212,5,1.7,Client à risque,Clients hibernants,Faible valeur,23.8,11.26,0.088,0.99,3,1,0.1507,-1.1844,1.1833
+DEMO_00919,19,1,10.85,6.8,3,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,5.7,10.85,0.148,1.6,3,0,0.108,-1.8072,-0.16
+DEMO_00920,24,3,43.87,3.7,1,Demo Plus,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,2.4,14.62,0.801,11.71,3,1,0.3138,-0.3595,-1.0728
+DEMO_00921,9,5,107.51,9.7,2,Demo Plus,5,3,5,535,13,4.4,Client fidèle,Clients à risque,Forte valeur,13.5,21.5,0.518,11.14,0,0,0.1045,0.8436,-0.4734
+DEMO_00922,44,11,108.14,34.2,1,Demo Plus,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,30.3,9.83,0.322,3.17,1,0,0.0831,0.9144,-0.2966
+DEMO_00923,29,6,209.77,26.3,1,Demo Max,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,26.9,34.96,0.228,7.97,2,1,0.1541,1.2585,0.5341
+DEMO_00924,11,1,11.33,34.4,2,Demo Flex,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,31.9,11.33,0.029,0.33,3,0,0.1619,-1.5121,0.9544
+DEMO_00925,29,3,14.56,13.8,2,Demo Flex,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,13.0,4.85,0.218,1.06,3,0,0.1771,-1.3761,-0.1493
+DEMO_00926,30,6,43.93,42.3,1,Demo Plus,2,4,3,243,9,3.1,Client moyen,Ne doit pas les perdre,Valeur moyenne,41.0,7.32,0.142,1.04,2,0,0.0852,0.148,0.0517
+DEMO_00927,25,1,8.13,7.5,1,Demo Start,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,5.5,8.13,0.134,1.09,3,0,0.1197,-1.8114,-0.386
+DEMO_00928,1,4,55.26,9.9,2,Demo Flex,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Valeur moyenne,10.0,13.81,0.402,5.56,3,0,0.0597,0.7548,-0.6204
+DEMO_00929,17,8,47.39,41.8,2,Demo Connect,4,5,3,453,12,3.8,Client fidèle,Champions,Valeur moyenne,36.7,5.92,0.191,1.13,2,0,0.1588,0.5276,0.0221
+DEMO_00930,44,1,8.47,25.1,1,Demo Connect,2,1,1,211,4,1.2,Client à risque,Clients hibernants,Faible valeur,24.5,8.47,0.04,0.34,1,0,0.2194,-2.8312,0.3014
+DEMO_00931,35,9,82.16,34.5,2,Demo Connect,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,34.3,9.13,0.261,2.38,2,0,0.071,1.4696,0.2411
+DEMO_00932,35,4,31.18,26.4,1,Demo Max,2,3,2,232,7,2.3,Client moyen,Clients à risque,Faible valeur,23.7,7.8,0.152,1.18,3,0,0.1877,-0.4499,0.1626
+DEMO_00933,28,3,46.75,15.2,1,Demo Connect,3,2,3,323,8,2.7,Client moyen,Clients à développer,Valeur moyenne,18.2,15.58,0.197,3.07,3,1,0.1701,-0.6337,-0.8886
+DEMO_00934,47,4,56.77,9.0,2,Demo Plus,1,3,4,134,8,3.1,Client moyen,Clients à risque,Valeur moyenne,7.8,14.19,0.443,6.29,1,0,0.2081,-0.2307,-0.7607
+DEMO_00935,14,1,18.95,4.8,4,Demo Flex,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,4.3,18.95,0.209,3.96,3,0,0.0941,-0.7187,-0.7483
+DEMO_00936,11,5,41.57,62.3,1,Demo Connect,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,61.1,8.31,0.08,0.67,3,0,0.0426,0.8597,1.8084
+DEMO_00937,80,3,57.97,5.9,1,Demo Flex,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Valeur moyenne,5.8,19.32,0.505,9.76,1,0,0.5693,-1.0045,-0.6428
+DEMO_00938,13,13,61.24,51.5,1,Demo Plus,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,54.1,4.71,0.252,1.19,2,0,0.074,2.2373,0.2516
+DEMO_00939,6,9,41.83,24.2,2,Demo Plus,5,5,3,553,13,4.0,Client fidèle,Champions,Valeur moyenne,29.2,4.65,0.371,1.73,2,0,0.0952,0.5846,-0.6316
+DEMO_00940,19,11,56.28,26.9,1,Demo Plus,4,5,4,454,13,4.3,Champion,Champions,Valeur moyenne,28.4,5.12,0.409,2.09,2,0,0.1102,1.3344,-0.4713
+DEMO_00941,25,3,30.07,25.8,1,Demo Plus,3,2,2,322,7,2.2,Client moyen,Clients à développer,Faible valeur,28.0,10.02,0.116,1.17,3,1,0.1566,-0.7245,0.669
+DEMO_00942,48,3,57.97,31.9,1,Demo Flex,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Valeur moyenne,35.3,19.32,0.094,1.82,1,0,0.178,-0.3591,0.6405
+DEMO_00943,17,5,35.81,12.8,3,Demo Flex,4,3,2,432,9,2.7,Client fidèle,Clients à risque,Valeur moyenne,13.3,7.16,0.391,2.8,3,0,0.1106,0.5884,0.0786
+DEMO_00944,17,1,7.67,3.2,1,Demo Plus,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,6.4,7.67,0.309,2.37,3,0,0.2336,-1.7653,-0.099
+DEMO_00945,24,4,35.43,15.0,2,Demo Flex,3,3,2,332,8,2.5,Client fidèle,Clients à développer,Valeur moyenne,16.6,8.86,0.267,2.36,3,1,0.2362,-0.6014,0.3113
+DEMO_00946,14,5,68.34,30.2,1,Demo Plus,4,3,4,434,11,3.7,Client fidèle,Clients à risque,Forte valeur,30.5,13.67,0.166,2.26,3,0,0.0584,0.1641,0.8569
+DEMO_00947,5,4,30.68,10.0,1,Demo Max,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,10.7,7.67,0.399,3.06,3,0,0.0882,0.5326,0.1118
+DEMO_00948,7,6,44.63,42.9,1,Demo Plus,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,39.3,7.44,0.14,1.04,2,1,0.0997,0.7375,0.2111
+DEMO_00949,57,6,28.55,20.8,1,Demo Max,1,4,2,142,7,2.4,Client moyen,Ne doit pas les perdre,Faible valeur,21.3,4.76,0.289,1.38,1,1,0.4478,-0.5912,-0.0015
+DEMO_00950,40,5,36.42,9.3,1,Demo Flex,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,6.2,7.28,0.538,3.92,1,1,0.3665,-0.5203,-0.1754
+DEMO_00951,23,11,209.66,25.0,1,Demo Flex,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,21.7,19.06,0.441,8.4,2,0,0.0806,2.4671,0.0372
+DEMO_00952,35,4,41.94,29.9,1,Demo Flex,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,30.3,10.49,0.134,1.4,3,0,0.2535,-0.6998,-0.022
+DEMO_00953,41,3,19.92,31.2,1,Demo Plus,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,29.0,6.64,0.096,0.64,1,0,0.19,-1.1016,0.7824
+DEMO_00954,13,1,19.69,1.0,1,Demo Flex,4,1,1,411,6,1.6,Client moyen,Nouveaux clients,Faible valeur,1.0,19.69,1.0,19.69,3,0,0.2115,-1.4601,-0.6783
+DEMO_00955,9,7,50.6,41.9,1,Demo Start,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,42.2,7.23,0.167,1.21,2,0,0.1007,0.667,1.4141
+DEMO_00956,53,3,65.34,7.0,1,Demo Plus,1,2,4,124,7,2.8,Client à risque,Clients hibernants,Forte valeur,7.3,21.78,0.43,9.36,1,0,0.1824,-0.7047,-1.2575
+DEMO_00957,2,8,172.68,41.9,1,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,40.1,21.58,0.191,4.12,0,0,0.0757,0.9766,0.1397
+DEMO_00958,36,8,82.29,44.3,2,Demo Flex,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,46.1,10.29,0.181,1.86,2,1,0.1925,0.7337,-0.22
+DEMO_00959,27,2,8.75,9.0,3,Demo Connect,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,8.9,4.37,0.221,0.97,3,0,0.1707,-2.0975,-0.3747
+DEMO_00960,49,3,105.41,10.5,2,Demo Plus,1,2,5,125,8,3.3,Client à risque,Clients hibernants,Forte valeur,11.4,35.14,0.285,10.0,1,1,0.2359,-0.0836,0.5498
+DEMO_00961,37,6,74.05,35.6,1,Demo Flex,2,4,4,244,10,3.6,Client moyen,Ne doit pas les perdre,Forte valeur,33.2,12.34,0.169,2.08,1,0,0.0803,0.4202,0.371
+DEMO_00962,35,8,66.77,17.1,4,Demo Plus,2,5,4,254,11,3.9,Client moyen,Ne doit pas les perdre,Forte valeur,16.8,8.35,0.467,3.9,2,0,0.2104,1.3108,-0.613
+DEMO_00963,10,9,151.88,48.3,4,Demo Max,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,50.4,16.88,0.187,3.15,0,0,0.0739,2.1289,0.9277
+DEMO_00964,42,7,102.74,56.4,1,Demo Flex,2,4,5,245,11,4.1,Client moyen,Ne doit pas les perdre,Forte valeur,58.4,14.68,0.124,1.82,1,0,0.097,0.869,1.2017
+DEMO_00965,32,4,82.05,9.3,1,Demo Flex,2,3,4,234,9,3.3,Client moyen,Clients à risque,Forte valeur,7.7,20.51,0.431,8.83,3,0,0.1586,0.4302,-0.4607
+DEMO_00966,11,1,6.93,12.6,2,Demo Connect,4,1,1,411,6,1.6,Client moyen,Clients prometteurs,Faible valeur,11.5,6.93,0.079,0.55,3,0,0.1314,-1.514,0.0004
+DEMO_00967,27,7,83.19,24.1,4,Demo Flex,3,4,4,344,11,3.8,Client fidèle,Clients fidèles,Forte valeur,22.1,11.88,0.29,3.45,2,0,0.1057,1.017,-0.6169
+DEMO_00968,8,2,10.39,3.1,2,Demo Plus,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,1.8,5.2,0.638,3.31,3,0,0.1175,-1.1886,-0.7545
+DEMO_00969,20,5,71.95,4.9,2,Demo Connect,3,3,4,334,10,3.5,Client fidèle,Clients à développer,Forte valeur,2.1,14.39,1.017,14.63,0,0,0.0684,0.7881,-0.5919
+DEMO_00970,103,3,29.55,11.5,2,Demo Connect,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,11.3,9.85,0.26,2.56,1,1,0.7192,-2.9302,-0.0045
+DEMO_00971,9,12,139.7,68.1,4,Demo Plus,5,5,5,555,15,5.0,Champion,Champions,Forte valeur,69.4,11.64,0.176,2.05,0,0,0.0536,3.1861,1.8852
+DEMO_00972,5,4,36.81,26.6,1,Demo Start,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,25.0,9.2,0.151,1.39,3,0,0.0519,0.6638,0.323
+DEMO_00973,7,4,34.75,14.2,1,Demo Plus,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Valeur moyenne,14.0,8.69,0.282,2.45,3,0,0.0343,0.097,-0.2396
+DEMO_00974,20,3,18.56,10.5,2,Demo Flex,3,2,1,321,6,1.7,Client moyen,Clients à développer,Faible valeur,10.0,6.19,0.286,1.77,3,0,0.2051,-1.3924,-0.1344
+DEMO_00975,39,3,46.22,9.0,1,Demo Connect,2,2,3,223,7,2.5,Client à risque,Clients hibernants,Valeur moyenne,11.1,15.41,0.335,5.16,1,0,0.2563,-0.08,-0.8099
+DEMO_00976,24,6,135.79,14.9,1,Demo Flex,3,4,5,345,12,4.3,Client fidèle,Clients fidèles,Forte valeur,13.7,22.63,0.402,9.09,2,1,0.1472,0.9205,-0.8479
+DEMO_00977,6,4,29.37,14.3,1,Demo Plus,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,13.2,7.34,0.279,2.05,3,0,0.1329,0.0926,-0.449
+DEMO_00978,38,5,67.62,19.3,1,Demo Start,2,3,4,234,9,3.3,Client moyen,Clients à risque,Forte valeur,17.6,13.52,0.259,3.5,1,0,0.2477,-0.3008,-0.8359
+DEMO_00979,7,5,63.25,30.8,1,Demo Max,5,3,4,534,12,3.9,Client fidèle,Clients à risque,Forte valeur,28.5,12.65,0.162,2.05,3,0,0.0869,1.4685,0.4513
+DEMO_00980,14,4,40.07,21.4,2,Demo Plus,4,3,3,433,10,3.2,Client fidèle,Clients à risque,Valeur moyenne,22.4,10.02,0.187,1.88,3,0,0.0963,-0.4954,0.4038
+DEMO_00981,52,5,21.54,36.9,1,Demo Start,1,3,2,132,6,2.1,Client moyen,Clients à risque,Faible valeur,36.6,4.31,0.136,0.58,1,0,0.1792,-1.0147,0.2309
+DEMO_00982,25,7,34.13,18.4,1,Demo Start,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Valeur moyenne,18.5,4.88,0.381,1.86,2,0,0.1547,-0.5796,-0.3069
+DEMO_00983,26,8,51.93,59.0,1,Demo Start,3,5,3,353,11,3.6,Client fidèle,Clients fidèles,Valeur moyenne,61.6,6.49,0.136,0.88,2,0,0.1591,0.6447,0.992
+DEMO_00984,6,3,9.23,36.3,3,Demo Start,5,2,1,521,8,2.1,Client moyen,Clients prometteurs,Faible valeur,39.0,3.08,0.083,0.25,3,1,0.0766,-1.33,0.2647
+DEMO_00985,15,1,21.64,26.1,2,Demo Flex,4,1,2,412,7,2.1,Client moyen,Clients prometteurs,Faible valeur,22.8,21.64,0.038,0.83,3,0,0.2112,-0.6139,1.3713
+DEMO_00986,46,3,36.63,30.8,4,Demo Plus,1,2,3,123,6,2.3,Client à risque,Clients hibernants,Valeur moyenne,32.1,12.21,0.097,1.19,1,0,0.2359,-0.9829,0.0174
+DEMO_00987,31,5,49.06,15.2,1,Demo Plus,2,3,3,233,8,2.8,Client moyen,Clients à risque,Valeur moyenne,15.7,9.81,0.328,3.22,3,1,0.1851,0.4214,-1.0253
+DEMO_00988,39,3,8.97,19.1,1,Demo Max,2,2,1,221,5,1.5,Client à risque,Clients hibernants,Faible valeur,18.2,2.99,0.157,0.47,1,0,0.4213,-2.1898,0.0218
+DEMO_00989,23,6,21.95,18.6,2,Demo Connect,3,4,2,342,9,2.8,Client fidèle,Clients fidèles,Faible valeur,19.2,3.66,0.323,1.18,2,0,0.2351,-0.4193,-0.273
+DEMO_00990,47,3,29.88,13.0,2,Demo Flex,1,2,2,122,5,1.8,Client à risque,Clients hibernants,Faible valeur,9.5,9.96,0.231,2.3,1,0,0.4014,-1.0996,-0.0567
+DEMO_00991,6,2,58.96,7.7,1,Demo Max,5,1,4,514,10,3.3,Client moyen,Clients prometteurs,Valeur moyenne,10.7,29.48,0.259,7.62,3,0,0.0781,0.3243,0.4007
+DEMO_00992,20,9,61.13,31.9,2,Demo Flex,3,5,4,354,12,4.1,Client fidèle,Clients fidèles,Valeur moyenne,32.9,6.79,0.282,1.92,2,1,0.2294,1.202,-0.424
+DEMO_00993,35,9,144.36,40.5,2,Demo Flex,2,5,5,255,12,4.4,Client moyen,Ne doit pas les perdre,Forte valeur,38.8,16.04,0.222,3.56,2,0,0.1262,1.7656,0.0631
+DEMO_00994,4,7,53.62,29.1,1,Demo Flex,5,4,3,543,12,3.7,Client fidèle,Champions,Valeur moyenne,27.9,7.66,0.241,1.84,2,0,0.0663,1.0246,0.717
+DEMO_00995,1,1,10.28,21.3,1,Demo Max,5,1,1,511,7,1.8,Client moyen,Clients prometteurs,Faible valeur,17.9,10.28,0.047,0.48,3,0,0.0361,-1.0953,0.6482
+DEMO_00996,80,13,252.91,72.0,1,Demo Max,1,5,5,155,11,4.2,Client moyen,Ne doit pas les perdre,Forte valeur,71.4,19.45,0.181,3.51,1,0,0.2818,1.4704,1.7419
+DEMO_00997,25,2,16.49,14.0,1,Demo Plus,3,1,1,311,5,1.4,Client moyen,Clients à développer,Faible valeur,13.1,8.25,0.142,1.17,3,0,0.1036,-1.1172,-0.474
+DEMO_00998,3,4,27.3,26.7,3,Demo Plus,5,3,2,532,10,2.9,Client fidèle,Clients à risque,Faible valeur,24.0,6.82,0.15,1.02,3,0,0.0939,0.4541,0.6837
+DEMO_00999,25,9,195.81,44.1,1,Demo Plus,3,5,5,355,13,4.6,Client fidèle,Clients fidèles,Forte valeur,45.7,21.76,0.204,4.44,2,0,0.0623,1.3655,0.8507
+DEMO_01000,7,4,40.91,9.7,2,Demo Plus,5,3,3,533,11,3.4,Client fidèle,Clients à risque,Valeur moyenne,12.3,10.23,0.412,4.21,3,0,0.2,0.3327,-0.5203
