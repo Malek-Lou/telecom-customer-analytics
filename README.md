@@ -1006,8 +1006,4 @@ This repository represents the broader continuation developed during the interns
 
 **Malek Louati**
 
-Applied Mathematics and Modelling Engineering Student  
 
-Polytech Nice Sophia
-
-[GitHub — Malek-Lou](https://github.com/Malek-Lou)
