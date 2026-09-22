@@ -5,15 +5,10 @@
 ### Customer Segmentation · RFM · Clustering · Churn Modelling · Streamlit
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
-
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white)
-
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-EC6B23)
-
 ![LightGBM](https://img.shields.io/badge/LightGBM-Gradient%20Boosting-9ACD32)
-
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
 
 **An end-to-end telecom customer analytics project combining behavioral segmentation, unsupervised learning, churn modelling and interactive visualization.**
